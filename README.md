@@ -1,1 +1,1 @@
-# GroupDocs.Total-Documentation
+Public documentation for GroupDocs.Total
