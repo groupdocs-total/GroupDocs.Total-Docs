@@ -4,7 +4,7 @@ url: total/net
 title: GroupDocs.Total for .NET
 weight: 1
 description: "GroupDocs.Total for .NET is the super-set of all the .NET on-premise APIs offered by GroupDocs. We compile it on a monthly basis to ensure that it contains the most up to date versions of each of our .NET document manipulation APIs."
-keywords: render files, view files, HTML, PDF, JPEG, PNG
+keywords: document automation, file automation, Word, Excel, HTML, PDF, JPEG, PNG
 productName: GroupDocs.Total for .NET
 hideChildren: True
 fullWidth: True
@@ -25,8 +25,6 @@ With GroupDocs.Total, you can work with over 170 document and image formats, inc
 GroupDocs.Total features a plethora of tools that enable you to customize and control the [document automation](https://en.m.wikipedia.org/wiki/Document_automation) and rendering process. You can set viewing preferences, create and edit annotations, apply digital signatures, convert files to different formats, compare different versions of the same document, merge and split documents, parse data, extract content from documents and images, and much more.
 
 ------
-
-- Known Issues
 
 {{< columns >}}
 <p><b>About GroupDocs.Total</b></p>
