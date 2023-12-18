@@ -1,0 +1,51 @@
+---
+id: system-requirements
+url: total/java/system-requirements
+title: System requirements
+weight: 3
+description: "GroupDocs.Total for Java does not require any external software to be installed such as Microsoft Word, Microsoft Excel or Microsoft PowerPoint for document manipulation."
+keywords: document manipulation, file manipulation
+productName: GroupDocs.Total for Java
+hideChildren: False
+toc: True
+---
+{{< alert style="info" >}}
+
+GroupDocs.Total for Java does not require any external software to be installed such as Microsoft Word, Microsoft Excel or Microsoft PowerPoint. To install GroupDocs.Total for Java just follow one of the ways as described in the [Installation]({{< ref "installation" >}}) section.
+
+{{< /alert >}}
+
+## Supported Operating Systems
+
+GroupDocs.Total for Java can be used on any 32-bit or 64-bit operating system where Java is installed including, but not limited to:
+
+### Windows
+
+* Microsoft Windows Server 2003 and later
+* Microsoft Windows XP (x64, x86)
+* Microsoft Windows Vista (x64, x86)
+* Microsoft Windows 7, 8, 8.1 (x64, x86)
+* Microsoft Windows 10 (x64, x86)
+* Microsoft Windows 11 (x64)
+
+### Linux
+
+* Linux (Ubuntu, OpenSUSE, CentOS and others)
+
+### Mac
+
+* Mac OS X
+
+## Supported Java Versions
+
+GroupDocs.Total for Java supports Java versions listed below. For more platform support please check [GroupDocs.Total](https://products.groupdocs.com/total) page.
+
+* J2SE 8.0 (1.8) or above (*for example Java 17*)
+
+## Development Environments
+
+GroupDocs.Total for Java can be used to develop applications in any development environment that targets Java, but the following environments are explicitly supported:
+
+* Eclipse IDE
+* IntelliJ IDEA
+* NetBeans
