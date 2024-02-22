@@ -38,7 +38,7 @@ GroupDocs.Total features a plethora of tools that enable you to customize and co
 <hr><p>OVERVIEW</p></hr>
 <ul>
     <li><a href='{{< ref "/total/java/product-overview.md" >}}'>Product overview</a></li>    
-    <li><a href='{{< ref "/total/java/supported-document-formats.md" >}}'>Supported file formats</a></li>   
+    <li><a href='{{< ref "/total/java/getting-started/supported-document-formats.md" >}}'>Supported file formats</a></li>   
 </ul>
 
 <p>GET STARTED</p>
