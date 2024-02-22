@@ -30,7 +30,8 @@ GroupDocs.Total features a plethora of tools that enable you to customize and co
 <p><b>About GroupDocs.Total</b></p>
 <hr><p>OVERVIEW</p></hr>
 <ul>
-    <li><a href='{{< ref "/total/net/product-overview.md" >}}'>Product overview</a></li>    
+    <li><a href='{{< ref "/total/net/product-overview.md" >}}'>Product overview</a></li>   
+    <li><a href='{{< ref "/total/net/supported-document-formats.md" >}}'>Supported file formats</a></li>    
 </ul>
 
 <p>GET STARTED</p>
