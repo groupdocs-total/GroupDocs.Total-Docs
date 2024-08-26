@@ -14,9 +14,15 @@ fullWidth: True
 <img src="https://img.shields.io/nuget/v/groupdocs.total?label=Nuget" alt="Nuget">
 <img src="https://img.shields.io/nuget/dt/GroupDocs.Total?label=nuget%20downloads" alt="Nuget">
 
+<br>
+
 {{< button style="primary" link="https://releases.groupdocs.com/total/net/release-notes/" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg> Release notes {{< /button >}} 
-{{< button style="primary" link="https://www.nuget.org/packages/groupdocs.total" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg> NuGet package {{< /button >}} 
-{{< button style="primary" link="https://releases.groupdocs.com/total/net/" >}} {{< icon "gdoc_download" >}} Download ZIP or MSI {{< /button >}}
+
+{{< button style="primary" link="https://www.nuget.org/packages/GroupDocs.Total" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg> GroupDocs.Total {{< /button >}} 
+
+{{< button style="primary" link="https://www.nuget.org/packages/GroupDocs.Total.NETFramework" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg> GroupDocs.Total.NETFramework {{< /button >}} 
+
+{{< button style="primary" link="https://releases.groupdocs.com/total/net/" >}} {{< icon "gdoc_download" >}} Download ZIP {{< /button >}}
 
 GroupDocs.Total is an all-in-one solution that comprises all available GroupDocs products. This comprehensive package allows you to view, annotate, e-sign, convert, compare, assemble, search, parse, and manipulate documents and images within your .NET or Cloud-based applications.
 

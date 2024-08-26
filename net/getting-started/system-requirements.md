@@ -62,6 +62,7 @@ GroupDocs.Total for .NET supports .NET as follows:
 * .NET Framework 4.7
 * .NET Framework 4.7.2
 * .NET Framework 4.8
+* .NET Framework 4.8.1
 
 ## Development Environments
 

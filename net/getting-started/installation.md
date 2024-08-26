@@ -20,6 +20,47 @@ You can use the following tools to install the [GroupDocs.Total](https://www.nug
  * [Package Manager Console](#use-the-package-manager-console-in-visual-studio)
  * [.NET CLI](#use-the-net-cli)
 
+### Select package
+
+<div class="gdoc-two-columns">
+    <div class="gdoc-two-columns__column">
+        <ul class="gdoc-two-columns__column__list">
+            <li>
+                <div>
+                    <svg class="gdoc-two-columns__column__icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg>
+                </div>
+                <div>
+                    <a class="gdoc-two-columns__column__link"
+                        href="https://www.nuget.org/packages/GroupDocs.Total">GroupDocs.Total</a>
+                    <div class="gdoc-two-columns__column__descr">
+                        - .NET Standard 2.0 assembly.
+                        <br>
+                        - .NET Core 3.1, NET 5 and later.
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="gdoc-two-columns__column">
+        <ul class="gdoc-two-columns__column__list">
+            <li>
+                <div>
+                <svg class="gdoc-two-columns__column__icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg>
+                </div>
+                <div>
+                    <a class="gdoc-two-columns__column__link"
+                        href="https://www.nuget.org/packages/GroupDocs.Total.NETFramework">GroupDocs.Total.NETFramework</a>
+                        <div class="gdoc-two-columns__column__descr">
+                        - .NET Framework assembly.
+                        <br>
+                        - .NET Framework 4.6.2 and later.
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
 ### Use the NuGet Package Manager
 
 Open your project or solution in Visual Studio and follow the steps below to install the **GroupDocs.Total** package using the [NuGet Package Manager](https://learn.microsoft.com/en-us/nuget/consume-packages/install-use-packages-visual-studio):
@@ -37,9 +78,14 @@ Open your project or solution in Visual Studio and follow the steps below to ins
 The [Package Manager Console](https://learn.microsoft.com/en-us/nuget/consume-packages/install-use-packages-powershell) uses PowerShell commands to install, update, and remove NuGet packages. Open your project in Visual Studio and click **Tools** -> **NuGet Package Manager** -> **Package Manager Console** to open the console window. Run the the following command to install the latest version of the **GroupDocs.Total** library:
 
 {{< tabs "example1">}}
-{{< tab "PowerShell" >}}
+{{< tab "GroupDocs.Total" >}}
 ```
 PM> Install-Package GroupDocs.Total
+```
+{{< /tab >}}
+{{< tab "GroupDocs.Total.NETFramework" >}}
+```
+PM> Install-Package GroupDocs.Total.NETFramework
 ```
 {{< /tab >}}
 {{< /tabs >}}
@@ -51,9 +97,14 @@ PM> Install-Package GroupDocs.Total
 You can also use the [.NET CLI tool](https://docs.microsoft.com/en-us/dotnet/core/tools/) to install and update NuGet packages. Open a terminal in your project's folder and execute the following command to install the **GroupDocs.Total** package:
 
 {{< tabs "example2">}}
-{{< tab ".NET CLI" >}}
+{{< tab "GroupDocs.Total" >}}
 ```
 dotnet add package GroupDocs.Total
+```
+{{< /tab >}}
+{{< tab "GroupDocs.Total.NETFramework" >}}
+```
+dotnet add package GroupDocs.Total.NETFramework
 ```
 {{< /tab >}}
 {{< /tabs >}}

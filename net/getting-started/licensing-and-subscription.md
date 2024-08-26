@@ -177,4 +177,3 @@ The evaluation version has the following limitations:
 ### Temporary License
 
 If you want to test GroupDocs.Total without the limitations of the trial version,   request a 30-day Temporary License. For details, see the ["Get a Temporary License"](https://purchase.groupdocs.com/temporary-license) page.
-
