@@ -30,13 +30,6 @@ GroupDocs.Total for .NET is a comprehensive suite of .NET libraries for document
 | [GroupDocs.Annotation&nbsp;for&nbsp;.NET](https://docs.groupdocs.com/annotation/net/) | A powerful .NET library for adding document annotation features to your applications, enabling users to annotate and collaborate on various document types. |
 | [GroupDocs.Classification&nbsp;for&nbsp;.NET](https://docs.groupdocs.com/classification/net/) | This .NET library provides text classification features, allowing you to categorize and analyze text data based on pre-defined or custom classifiers. |
 
-You can use GroupDocs.Total across multiple platforms and operation systems:
-
-* Windows, Linux, and macOS
-* .NET Framework 4.6.2 and higher
-* .NET Core 3.1
-* .NET 5 and higher
-
 ## Get started with GroupDocs.Total for .NET
 
 If you are new to GroupDocs.Total, see the following topics first:
