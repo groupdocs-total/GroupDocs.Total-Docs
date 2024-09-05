@@ -18,11 +18,46 @@ fullWidth: True
 
 {{< button style="primary" link="https://releases.groupdocs.com/total/net/release-notes/" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg> Release notes {{< /button >}} 
 
-{{< button style="primary" link="https://www.nuget.org/packages/GroupDocs.Total" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg> GroupDocs.Total {{< /button >}} 
-
-{{< button style="primary" link="https://www.nuget.org/packages/GroupDocs.Total.NETFramework" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg> GroupDocs.Total.NETFramework {{< /button >}} 
-
 {{< button style="primary" link="https://releases.groupdocs.com/total/net/" >}} {{< icon "gdoc_download" >}} Download ZIP {{< /button >}}
+
+<div class="gdoc-two-columns">
+    <div class="gdoc-two-columns__column">
+        <ul class="gdoc-two-columns__column__list">
+            <li>
+                <div>
+                    <svg class="gdoc-two-columns__column__icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg>
+                </div>
+                <div>
+                    <a class="gdoc-two-columns__column__link"
+                        href="https://www.nuget.org/packages/GroupDocs.Total">GroupDocs.Total</a>
+                    <div class="gdoc-two-columns__column__descr">
+                        - .NET Standard 2.0 assembly.
+                        <br>
+                        - .NET Core 3.1, NET 5 and later.
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="gdoc-two-columns__column">
+        <ul class="gdoc-two-columns__column__list">
+            <li>
+                <div>
+                <svg class="gdoc-two-columns__column__icon"><use xlink:href="/img/groupdocs-stack.svg#nuget"></use></svg>
+                </div>
+                <div>
+                    <a class="gdoc-two-columns__column__link"
+                        href="https://www.nuget.org/packages/GroupDocs.Total.NETFramework">GroupDocs.Total.NETFramework</a>
+                        <div class="gdoc-two-columns__column__descr">
+                        - .NET Framework assembly.
+                        <br>
+                        - .NET Framework 4.6.2 and later.
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
 
 GroupDocs.Total is an all-in-one solution that comprises all available GroupDocs products. This comprehensive package allows you to view, annotate, e-sign, convert, compare, assemble, search, parse, and manipulate documents and images within your .NET or Cloud-based applications.
 
