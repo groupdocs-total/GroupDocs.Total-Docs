@@ -10,7 +10,11 @@ productName: GroupDocs.Total for .NET
 toc: True
 ---
 
-GroupDocs.Total for .NET is a comprehensive suite of .NET libraries for document manipulation and management. It provides a wide range of features and tools for working with various file formats such as Word, Excel, PowerPoint, PDF, images and more. This product is designed to assist .NET developers in creating, editing, converting, and managing documents within their applications, offering capabilities including document viewing, annotation, and comparison. GroupDocs.Total for .NET aims to streamline the development process by providing a unified solution for document-related tasks in .NET applications.
+GroupDocs.Total for .NET is a comprehensive suite of document automation .NET on-premise APIs offered by GroupDocs. We compile it monthly to ensure you have access to the latest versions of our document manipulation APIs.
+
+With GroupDocs.Total for .NET, developers can leverage all our APIs with a single license. Alternatively, you also have the option to order any individual API separately.
+
+The products included in the GroupDocs.Total for .NET suite are listed below.
 
 | Product | Description |
 |:--|---|

@@ -44,7 +44,7 @@ Define GroupDocs.Total for Java API dependency in your `pom.xml`:
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-total</artifactId>
-        <version>23.12</version> 
+        <version>24.9</version> 
     </dependency>
 </dependencies>
 ```

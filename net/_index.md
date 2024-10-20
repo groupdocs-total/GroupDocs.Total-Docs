@@ -30,9 +30,9 @@ fullWidth: True
                     <a class="gdoc-two-columns__column__link"
                         href="https://www.nuget.org/packages/GroupDocs.Total">GroupDocs.Total</a>
                     <div class="gdoc-two-columns__column__descr">
-                        - .NET Standard 2.0 assembly.
+                        - .NET 6.0 assembly.
                         <br>
-                        - .NET Core 3.1, NET 5 and later.
+                        - .NET Standard 2.0 in versions prior to 24.9.
                     </div>
                 </div>
             </li>

@@ -15,9 +15,39 @@ GroupDocs.Total for .NET does not require any external software to be installed 
 
 {{< /alert >}}
 
+## Supported Frameworks
+
+GroupDocs.Total for .NET supports .NET as follows:
+
+### .NET
+
+* .NET 6
+* .NET 5 (out of support since v23.9)
+
+### .NET Core
+
+* .NET Core 3.1 (out of support since v23.9)
+
+### .NET Framework
+
+* .NET Framework 4.8.1
+* .NET Framework 4.8
+* .NET Framework 4.7.2
+* .NET Framework 4.7
+* .NET Framework 4.6.2
+* .NET Framework 4.6.0 (out of support since v23.8)
+* .NET Framework 4.5.2 (out of support since v23.8)
+* .NET Framework 4.5.1 (out of support since v23.8)
+* .NET Framework 4.5.0 (out of support since v23.8)
+* .NET Framework 4.0 (out of support since v23.8)
+* .NET Framework 3.5 (out of support since v22.3)
+* .NET Framework 2.0 (out of support since v22.3)
+
+Se complete list of package versions in the [Installation](/total/net/installation) topic.
+
 ## Supported Operating Systems
 
-GroupDocs.Total for .NET can be used on any 32-bit or 64-bit operating system where .NET Framework, .NET Core 3.1 or .NET is installed including, but not limited to:
+GroupDocs.Total for .NET can be used on any 32-bit or 64-bit operating system where .NET Framework or .NET runtime is installed including, but not limited to:
 
 ### Windows
 
@@ -35,34 +65,6 @@ GroupDocs.Total for .NET can be used on any 32-bit or 64-bit operating system wh
 ### Mac
 
 * Mac OS X
-
-## Supported Frameworks
-
-GroupDocs.Total for .NET supports .NET as follows:
-
-### .NET
-
-* .NET 5
-* .NET 6
-
-### .NET Core
-
-* .NET Core 3.1
-
-### .NET Framework
-
-* .NET Framework 2.0 (out of support since v22.3)
-* .NET Framework 3.5 (out of support since v22.3)
-* .NET Framework 4.0 (out of support since v23.8)
-* .NET Framework 4.5.0 (out of support since v23.8)
-* .NET Framework 4.5.1 (out of support since v23.8)
-* .NET Framework 4.5.2 (out of support since v23.8)
-* .NET Framework 4.6.0 (out of support since v23.8)
-* .NET Framework 4.6.2
-* .NET Framework 4.7
-* .NET Framework 4.7.2
-* .NET Framework 4.8
-* .NET Framework 4.8.1
 
 ## Development Environments
 
