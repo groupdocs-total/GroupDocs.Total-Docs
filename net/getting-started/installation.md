@@ -61,6 +61,8 @@ You can also use GroupDocs.Total with .NET Framework 2.0 (Visual Studio 2005-200
 
 | Package version | Target frameworks |
 | --- | --- |
+| [24.11.0](https://www.nuget.org/packages/GroupDocs.Total/24.11.0) | .NET 6.0 |
+| [24.10.0](https://www.nuget.org/packages/GroupDocs.Total/24.10.0) | .NET 6.0 |
 | [24.9.1](https://www.nuget.org/packages/GroupDocs.Total/24.9.1) | .NET 6.0 |
 | [24.8.0](https://www.nuget.org/packages/GroupDocs.Total/24.8.0) | .NET Standard 2.0 |
 | [24.7.0](https://www.nuget.org/packages/GroupDocs.Total/24.7.0) | .NET Standard 2.0 |
@@ -136,6 +138,8 @@ You can also use GroupDocs.Total with .NET Framework 2.0 (Visual Studio 2005-200
 
 | Package version | Target frameworks |
 | --- | --- |
+| [24.11.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/24.11.0) | .NET Framework 4.6.2 |
+| [24.10.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/24.10.0) | .NET Framework 4.6.2 |
 | [24.9.1](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/24.9.1) | .NET Framework 4.6.2 |
 | [24.8.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/24.8.0) | .NET Framework 4.6.2 |
 | [24.7.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/24.7.0) | .NET Framework 4.6.2 |
@@ -216,9 +220,9 @@ dotnet add package GroupDocs.Total.NETFramework
 
 ## Download GroupDocs.Total from the official website
 
-Visit [https://releases.groupdocs.com/total/net/](https://releases.groupdocs.com/total/net/) and download the **GroupDocs.Total** assemblies as a ZIP archive or MSI installer. To reference the downloaded assembly files in your project, do the following:
+Visit [https://releases.groupdocs.com/total/net/](https://releases.groupdocs.com/total/net/) and download the **GroupDocs.Total** assemblies as a ZIP archive. To reference the downloaded assembly files in your project, do the following:
 
-1. Extract files from the ZIP archive or run the MSI installer to install **GroupDocs.Total** to a specific location on your computer.
+1. Extract files from the ZIP archive with the assemblies to a specific location on your computer.
 2. Open your solution or project in Visual Studio.
 3. In **Solution Explorer**, right-click the **References** or **Dependencies** node, and select **Add Reference** (for a .NET Framework project) or **Add Project Reference** (for a .NET Core project).
 4. In the **Reference Manager** dialog box, select the **Browse** tab and click **Browse** to locate the _GroupDocs.Total.dll_ file for the target framework.

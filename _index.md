@@ -10,7 +10,6 @@ hideChildren: true
 showFeedbackForm: false
 ---
 
-
 <div class="gdoc-list-descr">
 Comprehensive suite of .NET or Java libraries for document manipulation and management - view, edit, convert and sign various file formats such as Word, Excel, PowerPoint, PDF, images and more
 </div>

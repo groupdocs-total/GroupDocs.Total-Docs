@@ -16,7 +16,7 @@ fullWidth: True
     <img src="https://img.shields.io/nuget/dt/GroupDocs.Total?label=nuget%20downloads" alt="Nuget">
     <br>
     {{< button style="primary" link="https://releases.groupdocs.com/total/net/release-notes/" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg> Release notes {{< /button >}} 
-    {{< button style="primary" link="https://releases.groupdocs.com/total/net/" >}} {{< icon "gdoc_download" >}} Download ZIP {{< /button >}}
+    {{< button style="primary" link="https://releases.groupdocs.com/total/net/#direct-download" >}} {{< icon "gdoc_download" >}} Download ZIP {{< /button >}}
 </div>
 
 <div class="gdoc-two-columns">
