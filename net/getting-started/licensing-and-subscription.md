@@ -75,13 +75,16 @@ The following code snippet shows how to set a license from file:
 
 ```csharp
 string licensePath = "GroupDocs.Total.lic";
+
+// Set license for all of the GroupDocs products
+GroupDocs.Total.SetLicense(licensePath);
+
+// Or set license for other GroupDocs products you are going to use
 GroupDocs.Viewer.License licenseViewer = new GroupDocs.Viewer.License();
 licenseViewer.SetLicense(licensePath);
 
 GroupDocs.Conversion.License licenseConversion = new GroupDocs.Conversion.License();
 licenseConversion.SetLicense(licensePath);
-
-// Set licenses for other GroupDocs products you are going to use
 ```
 
 {{< /tab >}}
@@ -96,15 +99,17 @@ The following code snippet shows how to set a license from a stream:
 
 ```csharp
 string licensePath = "GroupDocs.Total.lic";
-using (FileStream fileStream = File.OpenRead(licensePath))
+using (FileStream licenseStream = File.OpenRead(licensePath))
 {
+    // Set license for all of the GroupDocs products
+    GroupDocs.Total.SetLicense(licenseStream);
+
+    // Or set license for other GroupDocs products you are going to use
     GroupDocs.Viewer.License licenseViewer = new GroupDocs.Viewer.License();
-    licenseViewer.SetLicense(fileStream);
+    licenseViewer.SetLicense(licenseStream);
 
     GroupDocs.Conversion.License licenseConversion = new GroupDocs.Conversion.License();
-    licenseConversion.SetLicense(fileStream);
-
-    // Set licenses for other GroupDocs products you are going to use
+    licenseConversion.SetLicense(licenseStream);
 }
 ```
 
@@ -156,6 +161,10 @@ The following code snippet shows how to use the embedded license:
 {{< tabs "example4">}}
 {{< tab "C#" >}}
 ```csharp
+// Set license for all of the GroupDocs products
+GroupDocs.Total.SetLicense("GroupDocs.Total.lic");
+
+// Or set license for other GroupDocs products you are going to use
 GroupDocs.Viewer.License licenseViewer = new GroupDocs.Viewer.License();
 licenseViewer.SetLicense("GroupDocs.Total.lic");
 
