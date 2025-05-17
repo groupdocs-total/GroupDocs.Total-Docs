@@ -11,64 +11,58 @@ toc: True
 aliases:
     - /total/net/licensing-and-subscription/
 ---
-To study the system, you may want quick access to the API. To make this easier, GroupDocs.Total provides different plans for purchase and offers a Free Trial and a 30-day Temporary License for evaluation.
+
+This guide explains the different licensing options available for GroupDocs.Total for .NET and how to properly set up licensing in your applications.
+
+## Overview
+
+GroupDocs.Total for .NET offers multiple licensing options to suit your needs:
+- Free Trial for evaluation
+- 30-day Temporary License
+- Purchased License
+- Metered License (pay-as-you-go)
 
 {{< alert style="info" >}}
-
-Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies) section.
-
+For detailed information about our licensing policies and frequently asked questions, please visit the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies) section.
 {{< /alert >}}
 
-## How to Evaluate GroupDocs.Total
-
-You can also try GroupDocs.Total without buying a license.
+## Evaluation Options
 
 ### Free Trial
 
-The evaluation version is identical to the purchased one; it becomes licensed once you set the license. You can set the license using methods described in the following sections of this article.
-
-The evaluation version has the following limitations:
-
-- Rendering is limited to the first 2 pages.
-- Trial badges are added to the top of a rendered page.
+The evaluation version is identical to the purchased version and becomes fully licensed once you set the license. However, it includes the following limitations:
+- Evaluation watermark on output documents
+- Page processing limits (varies by product)
+- Other product-specific limitations
 
 ### Temporary License
 
-If you want to test GroupDocs.Total without the limitations of the trial version,   request a 30-day Temporary License. For details, see the ["Get a Temporary License"](https://purchase.groupdocs.com/temporary-license) page.
+For testing without trial limitations, you can request a 30-day Temporary License:
+1. Visit the [Get a Temporary License](https://purchase.groupdocs.com/temporary-license) page
+2. Follow the instructions to request your temporary license
+3. Apply the license using one of the methods described below
 
-## Purchased License
+## License Application
 
-After buying, apply the license file or include it as an embedded resource. 
+### Important Notes
 
-License needs to be set:
-- Only once per application domain and only once for each GroupDocs product you want to use
-- Before using any other GroupDocs.Total classes
-    
-### License Applying Options
+- Set the license only once per application domain
+- Set the license before using any GroupDocs.Total classes
+- Multiple calls to `SetLicense` are safe but unnecessary
+- Multiple calls to `SetMeteredKey` should be avoided to prevent improper consumption tracking
 
-Licenses can be applied from different locations:
+### License File Locations
 
-*   Explicit path
-*   The folder containing the _GroupDocs.Total.dll_ file
-*   The folder containing the assembly that called _GroupDocs.Total.dll_
-*   The folder containing the entry assembly (your _.exe_)
-*   As a Metered License that allows you to pay for your usage. For details, see the [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered/).
-*   As an embedded resource
-When you reference _GroupDocs.Total.dll_ in the application, the library is copied to your output directory (unless **Copy Local** in the properties for that entry is set to false). The easiest way to set a license is often to place the license file in the same folder as _GroupDocs.Total.dll_ and specify just the filename without the path.
+You can apply licenses from various locations:
+- Explicit file path
+- Same folder as GroupDocs.Total.dll
+- Same folder as the calling assembly
+- Same folder as the entry assembly (.exe)
+- As an embedded resource
 
-Use the `SetLicense` method to license a specific GroupDocs product. For example, to apply license for GroupDocs.Viewer component [SetLicense](https://reference.groupdocs.com/viewer/net/groupdocs.viewer/license/setlicense/) method has to be used.
+### License Application Methods
 
-Calling `SetLicense` multiple times is not harmful, it simply wastes processor time.
-
-Calling `SetMeteredKey` multiple times is not harmful either but wastes processor time and can accumulate consumption improperly.
-
-#### Apply the License
-
-After obtaining the license, set it. This section explains how to do this. When developing your application, call the `SetLicense` method in your startup code before using the GroupDocs.Total classes.
-
-##### Set a License from a File
-
-The following code snippet shows how to set a license from file:
+#### 1. From a File
 
 {{< tabs "example1">}}
 {{< tab "C#" >}}
@@ -76,10 +70,10 @@ The following code snippet shows how to set a license from file:
 ```csharp
 string licensePath = "GroupDocs.Total.lic";
 
-// Set license for all of the GroupDocs products
+// Set license for all products
 GroupDocs.Total.License.SetLicense(licensePath);
 
-// Or set license for other GroupDocs products you are going to use
+// Or set license for specific products
 GroupDocs.Viewer.License licenseViewer = new GroupDocs.Viewer.License();
 licenseViewer.SetLicense(licensePath);
 
@@ -90,9 +84,8 @@ licenseConversion.SetLicense(licensePath);
 {{< /tab >}}
 {{< /tabs >}}
 
-##### Set a License from a Stream
 
-The following code snippet shows how to set a license from a stream:
+#### 2. From a Stream
 
 {{< tabs "example2">}}
 {{< tab "C#" >}}
@@ -101,10 +94,10 @@ The following code snippet shows how to set a license from a stream:
 string licensePath = "GroupDocs.Total.lic";
 using (FileStream licenseStream = File.OpenRead(licensePath))
 {
-    // Set license for all of the GroupDocs products
+    // Set license for all products
     GroupDocs.Total.License.SetLicense(licenseStream);
 
-    // Or set license for other GroupDocs products you are going to use
+    // Or set license for specific products
     GroupDocs.Viewer.License licenseViewer = new GroupDocs.Viewer.License();
     licenseViewer.SetLicense(licenseStream);
 
@@ -116,14 +109,40 @@ using (FileStream licenseStream = File.OpenRead(licensePath))
 {{< /tab >}}
 {{< /tabs >}}
 
-#### Apply Metered License
+#### 3. As an Embedded Resource
 
-You can set the `Metered` license as an alternative to license file. It is useful for the customers who want to be billed based on the usage of the API features. For more details, please refer to [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered).
+To use an embedded license:
 
-The following code snippet shows how to use the metered license:
+1. Add the license file to your project
+2. Set its **Build Action** property to "Embedded Resource"
+3. Ensure the license name matches the parameter in `SetLicense`
 
 {{< tabs "example3">}}
 {{< tab "C#" >}}
+
+```csharp
+// Set license for all products
+GroupDocs.Total.License.SetLicense("GroupDocs.Total.lic");
+
+// Or set license for specific products
+GroupDocs.Viewer.License licenseViewer = new GroupDocs.Viewer.License();
+licenseViewer.SetLicense("GroupDocs.Total.lic");
+
+GroupDocs.Conversion.License licenseConversion = new GroupDocs.Conversion.License();
+licenseConversion.SetLicense("GroupDocs.Total.lic");
+```
+
+{{< /tab >}}
+{{< /tabs >}}
+
+#### 4. Metered License
+
+For pay-as-you-go licensing, use the Metered License option. For more details, see the [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered).
+
+{{< tabs "example4">}}
+{{< tab "C#" >}}
+
+
 ```csharp
 string publicKey = ""; // Your public license key
 string privateKey = ""; // Your private license key
@@ -132,56 +151,27 @@ string privateKey = ""; // Your private license key
 GroupDocs.Viewer.Metered meteredViewer = new GroupDocs.Viewer.Metered();
 meteredViewer.SetMeteredKey(publicKey, privateKey);
 
-// Get amount (MB) consumed
+// Get consumption metrics
 decimal amountConsumed = GroupDocs.Viewer.Metered.GetConsumptionQuantity();
-Console.WriteLine("Amount (MB) consumed: " + amountConsumed);
-
-// Get count of credits consumed
 decimal creditsConsumed = GroupDocs.Viewer.Metered.GetConsumptionCredit();
-Console.WriteLine("Credits consumed: " + creditsConsumed);
 
 // Set metered keys for GroupDocs.Conversion
 GroupDocs.Conversion.Metered meteredConversion = new GroupDocs.Conversion.Metered();
 meteredConversion.SetMeteredKey(publicKey, privateKey);
-
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 
-#### Apply License from an Embedded Resource
 
-Instead of using a license file, you can install the license as an embedded resource. To do this, add a license to the project and specify the license name in the `SetLicense` method without specifying the full path to this file.
+## Troubleshooting
 
-{{< alert style="info" >}}
-To use the embedded license, add it to your project and set the **Build Action** property of this file to "Embedded Resource". Ensure that the license name in the embedded resources matches the string parameter of the `SetLicense` method.
-{{< /alert >}}
+### License File Naming
+- You can rename the license file as needed
+- Ensure the filename in your code matches the actual file name
 
-The following code snippet shows how to use the embedded license:
+### Common Issues
 
-{{< tabs "example4">}}
-{{< tab "C#" >}}
-```csharp
-// Set license for all of the GroupDocs products
-GroupDocs.Total.License.SetLicense("GroupDocs.Total.lic");
+#### Can't find a license file
 
-// Or set license for other GroupDocs products you are going to use
-GroupDocs.Viewer.License licenseViewer = new GroupDocs.Viewer.License();
-licenseViewer.SetLicense("GroupDocs.Total.lic");
-
-GroupDocs.Conversion.License licenseConversion = new GroupDocs.Conversion.License();
-licenseConversion.SetLicense("GroupDocs.Total.lic");
-```
-{{< /tab >}}
-{{< /tabs >}}
-
-### Changing the License File Name
-
-You do not have to name the license file "GroupDocs.Total.lic". Feel free to rename it as you prefer, and use that name when setting the license in your application.
-
-### "Cannot find license filename" Exception
-
-When you buy and download a license from the GroupDocs website, the license file is named "GroupDocs.Total.lic." Download it using your browser. Sometimes, browsers recognize it as XML and add the .xml extension, making the full file name "GroupDocs.Total.lic.XML" on your computer.
-
-If Microsoft Windows is set to hide file extensions (which is the default in most installations), the license file will show as "GroupDocs.Total.lic" in Windows Explorer. You might assume this is the actual file name and call the `SetLicense` method with "GroupDocs.Total.lic", but there is no such file, leading to an exception.
-
-To fix this issue, rename the file to remove the hidden .xml extension. Additionally, we suggest disabling the **Hide extensions** option in Microsoft Windows.
+If you're setting a license file using a relative path and encountering issues, try using the absolute file path instead.
