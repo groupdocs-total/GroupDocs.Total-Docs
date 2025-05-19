@@ -1,14 +1,15 @@
 ---
 id: technical-support
 url: /total/java/technical-support
-title: Technical support
-description: "GroupDocs.Total for Java provides free technical support available to all users. Please report your question, issue, or feature request using GroupDocs Free Support Forum."
+title: Technical Support
+description: "Get comprehensive technical support for GroupDocs.Total for Java. Access free support through our forum or paid support via helpdesk. Learn how to report issues, request features, and get assistance from our development team."
+keywords: technical support, help desk, support forum, issue reporting, feature request, GroupDocs support, Java support, documentation, troubleshooting, customer service
 productName: GroupDocs.Total for Java
 weight: 10
 toc: True
 ---
 
-GroupDocs provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The support is provided at [Free Support Forum](https://forum.groupdocs.com/) and [Paid Support Helpdesk](https://helpdesk.groupdocs.com/).
+GroupDocs provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The support is provided at [Free Support Forum](https://forum.groupdocs.com/), [Paid Support Helpdesk](https://helpdesk.groupdocs.com/) and [Paid Consulting](https://consulting.groupdocs.com/).
 
 {{< alert style="info" >}}
 
@@ -16,23 +17,51 @@ Please note that GroupDocs does not provide technical support over the phone. Ph
 
 {{< /alert >}}
 
-## GroupDocs Free Support Forum
+## Support Options
 
-If you need help with GroupDocs.Total, follow these steps:
+### Free Support Forum
 
-1. Make sure you are using the latest GroupDocs.Total version before reporting an issue. See [GroupDocs Artifact Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-total) to find out about the latest version.
-2. Have a look through the forums, this documentation, and the API Reference before reporting an issue – perhaps your question has already been answered.
-3. Post your question at [GroupDocs.Total Free Support Forum](https://forum.groupdocs.com/c/total), and we'll assist you. Questions are answered directly by the GroupDocs.Total development team.
-4. When expecting a reply on the forums, please allow for time zone differences.
+The [GroupDocs Free Support Forum](https://forum.groupdocs.com/) is available to all users and provides:
+- Direct access to the GroupDocs.Total development team
+- Community-driven support and knowledge sharing
+- No time limitations on support requests
+- Access to historical solutions and discussions
 
-## Paid Support Helpdesk
+### Paid Support Helpdesk
 
-The paid support issues have a higher priority in comparison to the free support requests. Post your question at the [Paid Support Helpdesk](https://helpdesk.groupdocs.com/) to set a higher priority for the issue.
+The [Paid Support Helpdesk](https://helpdesk.groupdocs.com/) offers:
+- Higher priority response times
+- Dedicated support team
+- Extended support hours
+- Priority issue resolution
 
-## Report an Issue or Feature Request
+### Paid Consulting
 
-When posting your issue, question, or feature request with GroupDocs.Total, follow these steps to ensure it is resolved most efficiently:
+We can work together with you on your project and develop a part or complete application. If you need new features in the existing GroupDocs product or to create API for new file formats, send us a request at [consulting.groupdocs.com/contact](https://consulting.groupdocs.com/contact/).
 
-1. Include the original document and the code snippet causing the problem. If you need to attach several files, zip them into one. Only you and the GroupDocs developers have access to the attached files.
-2. Add information about the environment you face the issue.
-3. Report one issue per thread. If you have another issue, question, or feature request, please report it in a separate thread.
+## Getting Support
+
+### Before Contacting Support
+
+1. Ensure you're using the latest version of GroupDocs.Total
+   - Check [GroupDocs Artifact Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-total) for updates
+2. Review existing resources:
+   - Search the [documentation](https://docs.groupdocs.com/total/java/)
+   - Check the [API Reference](https://reference.groupdocs.com/total/java)
+   - Browse the [support forum](https://forum.groupdocs.com/c/total) for similar issues
+
+### Reporting Issues
+
+When reporting an issue, include:
+
+1. **Required Information:**
+   - Original document(s) causing the problem
+   - Code snippet demonstrating the issue
+   - Environment details (OS, Java version, etc.)
+   - Steps to reproduce the issue
+
+2. **Best Practices:**
+   - Create a separate thread for each issue
+   - Use clear, descriptive titles
+   - Attach files in ZIP format if multiple files are needed
+   - Allow for time zone differences when waiting for responses
