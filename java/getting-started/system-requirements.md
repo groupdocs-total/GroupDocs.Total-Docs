@@ -15,37 +15,73 @@ GroupDocs.Total for Java does not require any external software to be installed 
 
 {{< /alert >}}
 
-## Supported Operating Systems
-
-GroupDocs.Total for Java can be used on any 32-bit or 64-bit operating system where Java is installed including, but not limited to:
-
-### Windows
-
-* Microsoft Windows Server 2003 and later
-* Microsoft Windows XP (x64, x86)
-* Microsoft Windows Vista (x64, x86)
-* Microsoft Windows 7, 8, 8.1 (x64, x86)
-* Microsoft Windows 10 (x64, x86)
-* Microsoft Windows 11 (x64)
-
-### Linux
-
-* Linux (Ubuntu, OpenSUSE, CentOS and others)
-
-### Mac
-
-* Mac OS X
-
 ## Supported Java Versions
 
-GroupDocs.Total for Java supports Java versions listed below. For more platform support please check [GroupDocs.Total](https://products.groupdocs.com/total) page.
+GroupDocs.Total for Java supports the following Java versions:
 
-* J2SE 8.0 (1.8) or above (*for example Java 17*)
+- Java 8
+- Java 11
+- Java 17 (LTS)
+- Java 21 (LTS)
+
+{{< alert style="info" >}}
+
+Make sure you are using an up-to-date JDK from a supported vendor (e.g., Oracle, OpenJDK, etc.).
+
+{{< /alert >}}
+## Supported Operating Systems
+
+GroupDocs.Total for Java is platform-independent and can be used on any OS where Java is supported. Officially tested and supported operating systems include:
+
+- Windows 10/11 (x64)
+- Windows Server 2016/2019/2022
+- Linux (Ubuntu, CentOS, Debian, etc. – x64)
+- macOS (Intel and Apple Silicon, via Rosetta or natively on Java 17+)
+
+{{< alert style="info" >}}
+
+Ensure the file system and permissions allow your application to read/write files and create temporary directories if needed.
+
+{{< /alert >}}
 
 ## Development Environments
 
-GroupDocs.Total for Java can be used to develop applications in any development environment that targets Java, but the following environments are explicitly supported:
+You can develop with GroupDocs.Total for Java using any Java-supporting IDE:
 
-* Eclipse IDE
-* IntelliJ IDEA
-* NetBeans
+- IntelliJ IDEA (recommended)
+- Eclipse
+- NetBeans
+- Visual Studio Code (with Java plugin)
+
+Supported build tools:
+
+- **Maven** – Recommended for managing dependencies.
+- **Gradle** – Supported with official artifacts.
+- Ant – Manually configurable.
+
+## Memory and Performance Recommendations
+
+- **Minimum RAM:** 2 GB  
+- **Recommended RAM:** 4 GB or more for processing large documents  
+- **Disk Space:** At least 500 MB free disk space for libraries, logs, and temp files  
+- **Temporary Storage:** Ensure the system has access to a temporary directory (`java.io.tmpdir`)
+{{< alert style="tip" >}}
+
+For large document processing (e.g., big PDFs, Excel files), consider increasing JVM heap size:
+```sh
+java -Xms512m -Xmx2048m -jar your-app.jar
+```
+
+{{< /alert >}}
+
+## Additional Notes
+
+- **JVM Language Compatibility:** Works with Kotlin, Scala, Groovy, and any language running on the JVM
+- **Headless Environments:** Supported (e.g., Linux server without GUI)
+- **Docker:** Fully compatible. Ensure Java and required system libraries are installed in the container
+
+## Related Links
+
+- [Installation via Maven](https://docs.groupdocs.com/total/java/installation/)
+- [Licensing Guide](https://docs.groupdocs.com/total/java/licensing/)
+- [Product Overview](https://products.groupdocs.com/total/java/)
