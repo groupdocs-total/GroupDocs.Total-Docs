@@ -26,7 +26,7 @@ GroupDocs.Total for Java supports the following Java versions:
 
 {{< alert style="info" >}}
 
-Make sure you are using an up-to-date JDK from a supported vendor (e.g., Oracle, OpenJDK, etc.).
+Make sure you are using an up-to-date JDK from a supported vendor (e.g., Oracle, Eclipse Temurin, Amazon Corretto).
 
 {{< /alert >}}
 ## Supported Operating Systems
@@ -65,14 +65,11 @@ Supported build tools:
 - **Recommended RAM:** 4 GB or more for processing large documents  
 - **Disk Space:** At least 500 MB free disk space for libraries, logs, and temp files  
 - **Temporary Storage:** Ensure the system has access to a temporary directory (`java.io.tmpdir`)
-{{< alert style="tip" >}}
+- **JVM heap size:**  For large document processing (e.g., big PDFs, Excel files), consider increasing the heap size:
 
-For large document processing (e.g., big PDFs, Excel files), consider increasing JVM heap size:
 ```sh
 java -Xms512m -Xmx2048m -jar your-app.jar
 ```
-
-{{< /alert >}}
 
 ## Additional Notes
 
