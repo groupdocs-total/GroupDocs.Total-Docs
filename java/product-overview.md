@@ -20,7 +20,6 @@ The products included in the GroupDocs.Total for Java suite are listed below.
 |:--|---|
 | [GroupDocs.Annotation for Java](https://docs.groupdocs.com/annotation/java/) | A powerful Java library for adding document annotation features to your applications, enabling users to annotate and collaborate on various document types. |
 | [GroupDocs.Assembly for Java](https://docs.groupdocs.com/assembly/java/) | A Java library that allows you to generate documents based on templates, merging data from various sources into dynamic documents. |
-| [GroupDocs.Classification for Java](https://docs.groupdocs.com/classification/java/) | This Java library provides text classification features, allowing you to categorize and analyze text data based on pre-defined or custom classifiers. |
 | [GroupDocs.Comparison for Java](https://docs.groupdocs.com/comparison/java/) | A Java library for document comparison, enabling users to identify differences and visualize changes between two documents. | 
 | [GroupDocs.Conversion for Java](https://docs.groupdocs.com/conversion/java/) | Convert documents between different formats using this Java library, supporting a wide range of document types and providing flexibility in format conversion. | 
 | [GroupDocs.Editor for Java](https://docs.groupdocs.com/editor/java/) | Incorporate document editing capabilities into your Java applications, allowing users to edit and manipulate documents seamlessly. | 
@@ -49,4 +48,4 @@ If you are new to GroupDocs.Total, see the following topics first:
 
 ## Technical support
 
-If you encounter an issue while using GroupDocs.Total or have a technical question, feel free to create a post in our [Free Support Forum](https://forum.groupdocs.com/c/total). If free support is not sufficient, you can submit a ticket to our [Paid Support Helpdesk](https://helpdesk.groupdocs.com/).
+If you encounter an issue while using GroupDocs.Total or have a technical question, feel free to create a post in our [Free Support Forum](https://forum.groupdocs.com/c/total/8). If free support is not sufficient, you can submit a ticket to our [Paid Support Helpdesk](https://helpdesk.groupdocs.com/).

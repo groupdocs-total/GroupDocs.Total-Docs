@@ -23,7 +23,7 @@ GroupDocs.Total for .NET offers multiple licensing options to suit your needs:
 - Metered License (pay-as-you-go)
 
 {{< alert style="info" >}}
-For detailed information about our licensing policies and frequently asked questions, please visit the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies) section.
+For detailed information about our licensing policies and frequently asked questions, please visit the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies/) section.
 {{< /alert >}}
 
 ## Evaluation Options
@@ -38,7 +38,7 @@ The evaluation version is identical to the purchased version and becomes fully l
 ### Temporary License
 
 For testing without trial limitations, you can request a 30-day Temporary License:
-1. Visit the [Get a Temporary License](https://purchase.groupdocs.com/temporary-license) page
+1. Visit the [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/) page
 2. Follow the instructions to request your temporary license
 3. Apply the license using one of the methods described below
 
@@ -137,7 +137,7 @@ licenseConversion.SetLicense("GroupDocs.Total.lic");
 
 #### 4. Metered License
 
-For pay-as-you-go licensing, use the Metered License option. For more details, see the [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered).
+For pay-as-you-go licensing, use the Metered License option. For more details, see the [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered/).
 
 {{< tabs "example4">}}
 {{< tab "C#" >}}

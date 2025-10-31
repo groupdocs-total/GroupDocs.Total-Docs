@@ -43,4 +43,4 @@ If you are new to GroupDocs.Total, see the following topics first:
 
 ## Technical support
 
-If you encounter an issue while using GroupDocs.Total or have a technical question, feel free to create a post in our [Free Support Forum](https://forum.groupdocs.com/c/total). If free support is not sufficient, you can submit a ticket to our [Paid Support Helpdesk](https://helpdesk.groupdocs.com/).
+If you encounter an issue while using GroupDocs.Total or have a technical question, feel free to create a post in our [Free Support Forum](https://forum.groupdocs.com/c/total/8). If free support is not sufficient, you can submit a ticket to our [Paid Support Helpdesk](https://helpdesk.groupdocs.com/).

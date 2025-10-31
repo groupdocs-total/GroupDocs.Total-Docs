@@ -223,7 +223,7 @@ PM> Install-Package GroupDocs.Total.NETFramework
 
 ### Use the .NET CLI
 
-You can also use the [.NET CLI tool](https://docs.microsoft.com/en-us/dotnet/core/tools/) to install and update NuGet packages. Open a terminal in your project's folder and execute the following command to install the **GroupDocs.Total** package:
+You can also use the [.NET CLI tool](https://learn.microsoft.com/en-us/dotnet/core/tools/) to install and update NuGet packages. Open a terminal in your project's folder and execute the following command to install the **GroupDocs.Total** package:
 
 {{< tabs "example2">}}
 {{< tab ".NET application" >}}

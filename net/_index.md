@@ -62,7 +62,7 @@ GroupDocs.Total is an all-in-one solution that comprises all available GroupDocs
 
 With GroupDocs.Total, you can work with over 170 document and image formats, including text documents, spreadsheets, presentations, PDF files, emails, images, and 3D models. You can even perform optical character recognition (OCR) on scanned images and PDF files to extract text and search their contents.
 
-GroupDocs.Total features a plethora of tools that enable you to customize and control the [document automation](https://en.m.wikipedia.org/wiki/Document_automation) and rendering process. You can set viewing preferences, create and edit annotations, apply digital signatures, convert files to different formats, compare different versions of the same document, merge and split documents, parse data, extract content from documents and images, and much more.
+GroupDocs.Total features a plethora of tools that enable you to customize and control the [document automation](https://en.wikipedia.org/wiki/Document_automation) and rendering process. You can set viewing preferences, create and edit annotations, apply digital signatures, convert files to different formats, compare different versions of the same document, merge and split documents, parse data, extract content from documents and images, and much more.
 
 ------
 

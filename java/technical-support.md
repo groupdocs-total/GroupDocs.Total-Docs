@@ -44,11 +44,11 @@ We can work together with you on your project and develop a part or complete app
 ### Before Contacting Support
 
 1. Ensure you're using the latest version of GroupDocs.Total
-   - Check [GroupDocs Artifact Repository](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-total) for updates
+   - Check [GroupDocs Artifact Repository](https://releases.groupdocs.com/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-total) for updates
 2. Review existing resources:
    - Search the [documentation](https://docs.groupdocs.com/total/java/)
-   - Check the [API Reference](https://reference.groupdocs.com/total/java)
-   - Browse the [support forum](https://forum.groupdocs.com/c/total) for similar issues
+   - Check the [API Reference](https://reference.groupdocs.com/)
+   - Browse the [support forum](https://forum.groupdocs.com/c/total/8) for similar issues
 
 ### Reporting Issues
 

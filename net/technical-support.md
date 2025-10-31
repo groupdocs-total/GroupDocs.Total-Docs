@@ -47,8 +47,8 @@ We can work together with you on your project and develop a part or complete app
    - Check [GroupDocs.Total](https://www.nuget.org/packages/GroupDocs.Total/) and [GroupDocs.Total.NETFramework](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/) packages for updates
 2. Review existing resources:
    - Search the [documentation](https://docs.groupdocs.com/total/net/)
-   - Check the [API Reference](https://reference.groupdocs.com/total/net)
-   - Browse the [support forum](https://forum.groupdocs.com/c/total) for similar issues
+   - Check the [API Reference](https://reference.groupdocs.com/)
+   - Browse the [support forum](https://forum.groupdocs.com/c/total/8) for similar issues
 
 ### Reporting Issues
 

@@ -80,5 +80,5 @@ java -Xms512m -Xmx2048m -jar your-app.jar
 ## Related Links
 
 - [Installation via Maven](https://docs.groupdocs.com/total/java/installation/)
-- [Licensing Guide](https://docs.groupdocs.com/total/java/licensing/)
+- [Licensing Guide](https://docs.groupdocs.com/total/java/licensing-and-evaluation/)
 - [Product Overview](https://products.groupdocs.com/total/java/)

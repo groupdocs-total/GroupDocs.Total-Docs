@@ -15,7 +15,7 @@ To study the system, you may want quick access to the API. To make this easier, 
 
 {{< alert style="info" >}}
 
-Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies) section.
+Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies/) section.
 
 {{< /alert >}}
 
@@ -96,7 +96,7 @@ try (InputStream fileStream = new FileInputStream("GroupDocs.Total.lic")) {
 
 #### Apply Metered License
 
-You can set the `Metered` license as an alternative to license file. It is useful for the customers who want to be billed based on the usage of the API features. For more details, please refer to [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered).
+You can set the `Metered` license as an alternative to license file. It is useful for the customers who want to be billed based on the usage of the API features. For more details, please refer to [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered/).
 
 The following code snippet shows how to use the metered license:
 
@@ -175,5 +175,5 @@ The evaluation version has the following limitations:
 
 ### Temporary License
 
-If you want to test GroupDocs.Total without the limitations of the trial version,   request a 30-day Temporary License. For details, see the ["Get a Temporary License"](https://purchase.groupdocs.com/temporary-license) page.
+If you want to test GroupDocs.Total without the limitations of the trial version,   request a 30-day Temporary License. For details, see the ["Get a Temporary License"](https://purchase.groupdocs.com/temporary-license/) page.
 
