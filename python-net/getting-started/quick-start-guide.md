@@ -293,6 +293,6 @@ After running the app you can deactivate virtual environment by executing `deact
 
 ## Learn More
 
-- [Supported File Formats]({{< ref "/total/python-net/getting-started/supported-file-formats.md" >}}): Review the full list of supported file types.
+- [Supported File Formats]({{< ref "/total/python-net/getting-started/supported-document-formats.md" >}}): Review the full list of supported file types.
 - [Licensing and Evaluation]({{< ref "/total/python-net/getting-started/licensing-and-evaluation.md" >}}): Check details on licening and evaluation.
 - [Technical Support]({{< ref "/total/python-net/technical-support.md" >}}): Contact support for assistance if you encounter issues.

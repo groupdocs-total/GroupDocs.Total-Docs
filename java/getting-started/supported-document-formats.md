@@ -8,6 +8,8 @@ description: "This topic lists file formats supported by GroupDocs.Total for Jav
 productName: GroupDocs.Total for Java
 hideChildren: False
 toc: True
+aliases:
+    - /total/java/supported-file-formats
 ---
 
 Explore the diverse file formats supported by GroupDocs.Total for Java! Each product within the suite caters to specific file types. To ensure seamless integration, visit the dedicated documentation page for your desired product and discover the comprehensive list of supported formats.

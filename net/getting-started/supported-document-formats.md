@@ -8,6 +8,8 @@ description: "This topic lists file formats supported by GroupDocs.Total for .NE
 productName: GroupDocs.Total for .NET
 hideChildren: False
 toc: False
+aliases:
+    - /total/net/supported-file-formats
 ---
 
 Explore the diverse file formats supported by GroupDocs.Total for .NET! Each product within the suite caters to specific file types. To ensure seamless integration, visit the dedicated documentation page for your desired product and discover the comprehensive list of supported formats.
