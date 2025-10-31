@@ -20,6 +20,7 @@ Comprehensive suite of .NET or Java libraries for document manipulation and mana
 <ul >
 <li><a href="#total_net">.NET</a></li>
 <li><a href="#total_java">Java</a></li>
+<li><a href="#total_python_net">Python via .NET</a></li>
 </ul>
 </div>
 
@@ -111,7 +112,49 @@ Comprehensive suite of .NET or Java libraries for document manipulation and mana
             <a class="gdoc-platform__footer-btn"  href='/total/java/'>More</a>
         </div>
     </div>    
-
+    <div class="gdoc-platform">
+     <a id="total_python_net"></a>
+        <div class="gdoc-platform__header">
+            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#python"></use></svg>
+            <a class="gdoc-platform__header-title"  href='/total/python-net/'>GroupDocs.Total for Python via .NET</a>
+            <a class="gdoc-platform__header-btn"  href='/total/python-net/'>More</a>
+        </div>
+        <div class="gdoc-platform__cols">
+            <div class="gdoc-platform__col">
+                <div class="gdoc-platform__col-title">
+                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
+                <div>Getting started</div></div>
+                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
+                <ul class="gdoc-platform__col-links">
+                    <li> <a href='/total/python-net/product-overview/'>Product overview</a></li>
+                    <li> <a href='/total/python-net/system-requirements/'>System requirements</a></li>
+                    <li> <a href='/total/python-net/installation/'>Installation</a></li>
+                </ul>
+            </div>
+            <div class="gdoc-platform__col">
+                    <div class="gdoc-platform__col-title">
+                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
+                    <div>Licensing and support</div></div>
+                    <div class="gdoc-platform__col-descr">Articles and guidelines</div>
+                    <ul class="gdoc-platform__col-links">
+                        <li> <a href='/total/python-net/licensing-and-evaluation/'>Licensing</a></li>
+                        <li> <a href='/total/python-net/technical-support/'>Technical support</a></li>
+                    </ul>
+                    </div>
+            <div class="gdoc-platform__col">
+                    <div class="gdoc-platform__col-title">
+                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
+                    <div>Python code examples</div></div>
+                    <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
+                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
+                        <li> <a href='https://github.com/groupdocs-total/GroupDocs.Total-for-Python-via-.NET'>GroupDocs.Total for Python via .NET</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="gdoc-platform__footer">
+            <a class="gdoc-platform__footer-btn"  href='/total/python-net/'>More</a>
+        </div>
+    </div>
 </div>
 
 <h2 class="gdoc-product-title">Live demos</h2>
@@ -134,7 +177,7 @@ Comprehensive suite of .NET or Java libraries for document manipulation and mana
         <li > 
             <svg class="gdoc-product-example__icon"><use xlink:href="/img/groupdocs-stack.svg#app"></use></svg>
             <div>
-                <a class="gdoc-product-example__link" href="https://products.groupdocs.app/total/">GroupDocs.Total Free App</a>
+                <a class="gdoc-product-example__link" href="https://products.groupdocs.app/total">GroupDocs.Total Free App</a>
                 <div class="gdoc-product-example__descr">Automate processing among multiple file and document types online for free</div>
             </div>
         </li>
