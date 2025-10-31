@@ -67,7 +67,7 @@ from groupdocs.conversion import License
 
 def set_license_from_file():
     # Get absolute path to license file
-    license_path = os.path.abspath("./GroupDocs.Total.PythonViaNET.lic")
+    license_path = os.path.abspath("./GroupDocs.Total.lic")
 
     # Instantiate License and set the license
     license = License()
@@ -87,7 +87,7 @@ from groupdocs.conversion import License
 
 def set_license_from_stream():
     # Get absolute path to license file
-    license_path = os.path.abspath("./GroupDocs.Total.PythonViaNET.lic")
+    license_path = os.path.abspath("./GroupDocs.Total.lic")
 
     # Create a readable steam
     with open(license_path, "rb") as license_stream:

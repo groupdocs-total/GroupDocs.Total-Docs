@@ -24,11 +24,6 @@ To install the package, open a terminal and run the following command:
 py -m pip install groupdocs-total-net
 ```
 {{< /tab >}}
-{{< tab "macOS" >}}
-```bash
-python3 -m pip install groupdocs-total-net
-```
-{{< /tab >}}
 {{< /tabs >}}
 
 When running the command on Windows, you can expect an output similar to the following:
