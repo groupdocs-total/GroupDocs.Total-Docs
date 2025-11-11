@@ -62,6 +62,10 @@ GroupDocs.Total for .NET can be used on any 32-bit or 64-bit operating system wh
 
 * Linux (Ubuntu, OpenSUSE, CentOS and others)
 
+{{< alert style="info" >}}
+See details on additional requirements for Linux in the [Running in Docker](/total/net/running-in-docker) topic.
+{{< /alert >}}
+
 ### Mac
 
 * Mac OS X

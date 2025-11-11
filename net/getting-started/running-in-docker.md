@@ -190,16 +190,67 @@ The application creates the output `business-plan.pdf` file and places it into t
 
 ## Troubleshooting
 
-### Font Issues
+The most common issues that can be resolved right away are **font-related problems**. Typically, you need to install the appropriate font that supports the character set used in your documents.
 
-If you encounter font-related errors:
+### Chinese Characters
+
+If your documents contain Chinese text and characters do not display correctly, you may need to install the **SimSun** font.
+
+#### Option 1: Copy from a Windows machine
+
+You can copy the `SimSun` font file (`simsun.ttc`) from a Windows system and include it in your Docker image:
+
+```bash
+# Copy SimSun font from local directory into the container
+COPY simsun.ttc /usr/share/fonts/truetype/simsun.ttc
+
+# Update font cache
+RUN fc-cache -f -v
+```
+
+> 💡 Tip: You can find `simsun.ttc` in `C:\Windows\Fonts` on a Windows machine.
+
+#### Option 2: Install compatible CJK font
+
+Alternatively, you can download and install a compatible CJK font package directly in your Dockerfile:
+
+```bash
+# Install Chinese fonts
+RUN apt-get update && apt-get install -y fonts-arphic-ukai fonts-arphic-uming
+```
+
+These fonts provide good coverage for Simplified and Traditional Chinese characters.
+
+### Other Font Issues
+
+If you encounter other font-related errors, install the following packages:
 
 ```bash
 # Install additional fonts
 RUN apt-get update && apt-get install -y fonts-liberation fonts-dejavu-core
 ```
 
-### Exceptions
+#### fonts-liberation
 
-In case you experience any other exeptions when running the application please contact us using [GroupDocs Free Support Forum](https://forum.groupdocs.com/) and we'll be happy to help.
+Provides free replacements for Microsoft’s proprietary fonts. Many documents, especially DOCX, PPTX, and PDFs, use Microsoft fonts. On Linux systems, these aren’t available by default, so `fonts-liberation` ensures text renders correctly and preserves layout without needing the actual Microsoft fonts.
+
+Includes:
+
+* Liberation Sans → substitute for Arial  
+* Liberation Serif → substitute for Times New Roman  
+* Liberation Mono → substitute for Courier New
+
+#### fonts-dejavu-core
+
+Provides high-quality, Unicode-complete fonts that extend the Bitstream Vera family. It offers very wide Unicode coverage, meaning it supports many symbols, mathematical characters, and international scripts. It’s a default choice in many Linux distributions for general-purpose text rendering.
+
+Includes:
+
+* DejaVu Sans  
+* DejaVu Serif  
+* DejaVu Sans Mono
+
+### Exceptions or Errors
+
+If you experience any other exceptions when running the application, please contact us using the [GroupDocs Free Support Forum](https://forum.groupdocs.com/) and we'll be happy to help.
 
