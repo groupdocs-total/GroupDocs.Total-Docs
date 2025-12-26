@@ -41,5 +41,5 @@ py -m pip install groupdocs-total-net
 ### Install `groupdocs-total-net` from releases
 
 ```python
-py -m pip install groupdocs_total_net-25.10.0-py3-none-any.whl
+py -m pip install groupdocs_total_net-25.12.0-py3-none-any.whl
 ```

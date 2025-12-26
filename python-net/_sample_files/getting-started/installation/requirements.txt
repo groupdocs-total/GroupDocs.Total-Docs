@@ -1,1 +1,1 @@
-groupdocs-total-net==25.10
+groupdocs-total-net==25.12

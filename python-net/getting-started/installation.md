@@ -30,10 +30,10 @@ When running the command on Windows, you can expect an output similar to the fol
 
 ```bash
 Collecting groupdocs-total-net
-  Using cached groupdocs_total_net-25.10.0-py3-none-any.whl.metadata (5.2 kB)
+  Using cached groupdocs_total_net-25.12.0-py3-none-any.whl.metadata (5.2 kB)
 Collecting groupdocs-conversion-net==24.12 (from groupdocs-total-net)
 ...
-Successfully installed groupdocs-assembly-net-25.5.1 groupdocs-comparison-net-25.6 groupdocs-conversion-net-24.12 groupdocs-merger-net-25.3 groupdocs-metadata-net-25.4 groupdocs-redaction-net-25.10 groupdocs-signature-net-25.4 groupdocs-total-net-25.10.0 groupdocs-viewer-net-24.9 groupdocs-watermark-net-25.3
+Successfully installed groupdocs-assembly-net-25.5.1 groupdocs-comparison-net-25.12 groupdocs-conversion-net-25.12 groupdocs-merger-net-25.3 groupdocs-metadata-net-25.10 groupdocs-redaction-net-25.10 groupdocs-signature-net-25.4 groupdocs-total-net-25.12 groupdocs-viewer-net-25.12 groupdocs-watermark-net-25.12
 ```
 
 ### Adding the Package to requirements.txt
@@ -41,7 +41,7 @@ Successfully installed groupdocs-assembly-net-25.5.1 groupdocs-comparison-net-25
 You can add the dependency to your `requirements.txt` file by including the following line:
 
 ```bash
-groupdocs-total-net==25.10
+groupdocs-total-net==25.12
 ```
 
 Then, install the package using this command:
@@ -78,7 +78,7 @@ The following example shows how to install **GroupDocs.Total for Python via .NET
 {{< tabs "example2">}}
 {{< tab "Windows" >}}
 ```powershell
-py -m pip install groupdocs_total_net-25.10.0-py3-none-any.whl
+py -m pip install groupdocs_total_net-25.12-py3-none-any.whl
 ```
 {{< /tab >}}
 {{< /tabs >}}
@@ -86,9 +86,9 @@ py -m pip install groupdocs_total_net-25.10.0-py3-none-any.whl
 Expected output:
 
 ```bash
-Processing groupdocs_total_net-25.10.0-py3-none-any.whl
+Processing groupdocs_total_net-25.12.0-py3-none-any.whl
 ...
-Successfully installed groupdocs-assembly-net-25.5.1 groupdocs-comparison-net-25.6 groupdocs-conversion-net-24.12 groupdocs-merger-net-25.3 groupdocs-metadata-net-25.4 groupdocs-redaction-net-25.10 groupdocs-signature-net-25.4 groupdocs-total-net-25.10.0 groupdocs-viewer-net-24.9 groupdocs-watermark-net-25.3
+Successfully installed groupdocs-comparison-net-25.12 groupdocs-conversion-net-25.12 groupdocs-metadata-net-25.10 groupdocs-redaction-net-25.10 groupdocs-total-net-25.12 groupdocs-viewer-net-25.12 groupdocs-watermark-net-25.12  
 ```
 
 #### Install an Individual Package File

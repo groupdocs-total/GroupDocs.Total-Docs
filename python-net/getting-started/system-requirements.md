@@ -29,17 +29,18 @@ Some of the supported packages in GroupDocs.Total include macOS support for Inte
 
 The following table shows the platform support matrix:
 
-| Package | Windows 32-bit | Windows 64-bit | Linux x86_64 | macOS 10.14 x86 | macOS 11.0 Apple M-series Silicon |
-|---|:---:|:---:|:---:|:---:|:---:|
-| [groupdocs‑conversion‑net](https://pypi.org/project/groupdocs-conversion-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
-| [groupdocs‑viewer‑net](https://pypi.org/project/groupdocs-viewer-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  |  | ![(tick)](/total/python-net/_images/check-blue.png) |
-| [groupdocs‑comparison‑net](https://pypi.org/project/groupdocs-comparison-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  |
-| [groupdocs‑watermark‑net](https://pypi.org/project/groupdocs-watermark-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  |
-| [groupdocs‑metadata‑net](https://pypi.org/project/groupdocs-metadata-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  |
-| [groupdocs‑merger‑net](https://pypi.org/project/groupdocs-merger-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  |
+| Package | Windows 32-bit | Windows 64-bit | Linux x86_64 | macOS 10.14 x86 | macOS 11.0 Apple Silicon |
+|---|---|---|---|---|---|
 | [groupdocs‑assembly‑net](https://pypi.org/project/groupdocs-assembly-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  |  |  |
+| [groupdocs‑comparison‑net](https://pypi.org/project/groupdocs-comparison-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
+| [groupdocs‑conversion‑net](https://pypi.org/project/groupdocs-conversion-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
+| [groupdocs‑merger‑net](https://pypi.org/project/groupdocs-merger-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  |
+| [groupdocs‑metadata‑net](https://pypi.org/project/groupdocs-metadata-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
 | [groupdocs‑redaction‑net](https://pypi.org/project/groupdocs-redaction-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
 | [groupdocs‑signature‑net](https://pypi.org/project/groupdocs-signature-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |  | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
+| [groupdocs‑viewer‑net](https://pypi.org/project/groupdocs-viewer-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
+| [groupdocs‑watermark‑net](https://pypi.org/project/groupdocs-watermark-net/) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) | ![(tick)](/total/python-net/_images/check-blue.png) |
+
 
 You can install individual packages based on your requirements and the platforms you are targeting.
 
