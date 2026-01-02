@@ -31,7 +31,6 @@ The products included in the GroupDocs.Total for .NET suite are listed below.
 | [GroupDocs.Parser&nbsp;for&nbsp;.NET](https://docs.groupdocs.com/parser/net/) | Extract data from documents with ease using this .NET library, supporting text and metadata extraction from various document formats. |
 | [GroupDocs.Redaction&nbsp;for&nbsp;.NET](https://docs.groupdocs.com/redaction/net/) | Securely redact sensitive information from documents in your .NET applications, ensuring data privacy and compliance with regulations. |
 | [GroupDocs.Annotation&nbsp;for&nbsp;.NET](https://docs.groupdocs.com/annotation/net/) | A powerful .NET library for adding document annotation features to your applications, enabling users to annotate and collaborate on various document types. |
-| [GroupDocs.Classification&nbsp;for&nbsp;.NET](https://docs.groupdocs.com/classification/net/) | This .NET library provides text classification features, allowing you to categorize and analyze text data based on pre-defined or custom classifiers. |
 
 ## Get started with GroupDocs.Total for .NET
 

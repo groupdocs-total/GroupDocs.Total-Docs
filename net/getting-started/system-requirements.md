@@ -22,11 +22,11 @@ GroupDocs.Total for .NET supports .NET as follows:
 ### .NET
 
 * .NET 6
-* .NET 5 (out of support since v23.9)
+* .NET 5 (out of support since 23.9)
 
 ### .NET Core
 
-* .NET Core 3.1 (out of support since v23.9)
+* .NET Core 3.1 (out of support since 23.9)
 
 ### .NET Framework
 
@@ -35,13 +35,13 @@ GroupDocs.Total for .NET supports .NET as follows:
 * .NET Framework 4.7.2
 * .NET Framework 4.7
 * .NET Framework 4.6.2
-* .NET Framework 4.6.0 (out of support since v23.8)
-* .NET Framework 4.5.2 (out of support since v23.8)
-* .NET Framework 4.5.1 (out of support since v23.8)
-* .NET Framework 4.5.0 (out of support since v23.8)
-* .NET Framework 4.0 (out of support since v23.8)
-* .NET Framework 3.5 (out of support since v22.3)
-* .NET Framework 2.0 (out of support since v22.3)
+* .NET Framework 4.6.0 (out of support since 23.8)
+* .NET Framework 4.5.2 (out of support since 23.8)
+* .NET Framework 4.5.1 (out of support since 23.8)
+* .NET Framework 4.5.0 (out of support since 23.8)
+* .NET Framework 4.0 (out of support since 23.8)
+* .NET Framework 3.5 (out of support since 22.3)
+* .NET Framework 2.0 (out of support since 22.3)
 
 Se complete list of package versions in the [Installation](/total/net/installation) topic.
 

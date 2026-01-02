@@ -29,4 +29,3 @@ Explore the diverse file formats supported by GroupDocs.Total for .NET! Each pro
 | GroupDocs.Parser&nbsp;for&nbsp;.NET | [supported file formats](https://docs.groupdocs.com/parser/net/supported-document-formats/) |
 | GroupDocs.Redaction&nbsp;for&nbsp;.NET | [supported file formats](https://docs.groupdocs.com/redaction/net/supported-document-formats/) |
 | GroupDocs.Annotation&nbsp;for&nbsp;.NET | [supported file formats](https://docs.groupdocs.com/annotation/net/supported-document-formats/) |
-| GroupDocs.Classification&nbsp;for&nbsp;.NET | [supported file formats](https://docs.groupdocs.com/classification/net/supported-document-formats/) |
