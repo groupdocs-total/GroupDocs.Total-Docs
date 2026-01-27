@@ -61,6 +61,7 @@ You can also use GroupDocs.Total with .NET Framework 2.0 (Visual Studio 2005-200
 
 | Package version | Target frameworks |
 | --- | --- |
+| [25.12](https://www.nuget.org/packages/GroupDocs.Total/25.12) | .NET 6.0 |
 | [25.11](https://www.nuget.org/packages/GroupDocs.Total/25.11) | .NET 6.0 |
 | [25.9](https://www.nuget.org/packages/GroupDocs.Total/25.9) | .NET 6.0 |
 | [25.8](https://www.nuget.org/packages/GroupDocs.Total/25.8) | .NET 6.0 |
@@ -150,6 +151,7 @@ You can also use GroupDocs.Total with .NET Framework 2.0 (Visual Studio 2005-200
 
 | Package version | Target frameworks |
 | --- | --- |
+| [25.12.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/25.12.0) | .NET Framework 4.6.2 |
 | [25.11.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/25.11.0) | .NET Framework 4.6.2 |
 | [25.9.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/25.9.0) | .NET Framework 4.6.2 |
 | [25.8.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/25.8.0) | .NET Framework 4.6.2 |
