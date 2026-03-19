@@ -1,11 +1,11 @@
 ---
-id: total-net
+id: total-python-net
 url: total/python-net
 title: GroupDocs.Total for Python via .NET
 weight: 1
 description: "GroupDocs.Total for Python via .NET is the super-set of all the .NET on-premise APIs offered by GroupDocs. We compile it on a monthly basis to ensure that it contains the most up to date versions of each of our .NET document manipulation APIs."
 keywords: document automation, file automation, Word, Excel, HTML, PDF, JPEG, PNG
-roductName: GroupDocs.Total for Python via .NET
+productName: GroupDocs.Total for Python via .NET
 hideChildren: True
 fullWidth: True
 ---      
