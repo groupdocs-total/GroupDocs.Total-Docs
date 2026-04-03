@@ -1,23 +1,33 @@
-# GroupDocs.Total public documentation
+# GroupDocs.Total - Documentation Source Files
 
-This repository contains Markdown files that are used to generate GroupDocs.Total static documentation that can be found at:
+This repository contains Markdown files used to generate [GroupDocs.Total](https://docs.groupdocs.com/total/) static documentation.
 
-* <https://docs.groupdocs.com/total/net/>
+## About GroupDocs.Total
 
-* <https://docs.groupdocs.com/total/java/>
+[GroupDocs.Total](https://products.groupdocs.com/total/) is a comprehensive document processing suite that combines all GroupDocs APIs, giving you access to viewing, conversion, annotation, comparison, signature, and other document operations in a single package.
 
-## Prerequisites
+Available for .NET, Java, and Python.
 
-* Install Hugo and related tools
+## Repository Purpose
 
-  `npm install -g hugo-extended postcss postcss-cli autoprefixer`
+The files in this repository are used to:
 
-## Running
+- Build and maintain the official [documentation](https://docs.groupdocs.com/total/).
+- Ensure documentation is always up-to-date with the latest product release.
+- Provide a consistent structure for automated builds and publication.
 
-* Navigate in the root folder
+## How to Use
 
-* Run `build_docs.bat` or commands that you can find in this file.
+This repository is not meant for direct use, as it contains source files for generating static content with Hugo.
 
-## Publishing
+## Resources
 
-Commit your changes or create pull request into `master` branch and GitHub actions will do the rest.
+- [Product Page](https://products.groupdocs.com/total/)
+- [Documentation](https://docs.groupdocs.com/total/)
+- [API Reference](https://reference.groupdocs.com/total/)
+- [Free Support Forum](https://forum.groupdocs.com/c/total/)
+- [Blog](https://blog.groupdocs.com/category/total/)
+
+## License
+
+This repository contains documentation source files and is licensed under the [MIT License](LICENSE).
