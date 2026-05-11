@@ -137,7 +137,7 @@ converter.Convert("./output/business-plan.pdf", options);
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="GroupDocs.Total" Version="26.3.0" />
+    <PackageReference Include="GroupDocs.Total" Version="26.4.0" />
   </ItemGroup>
 
 </Project>

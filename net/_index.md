@@ -28,7 +28,7 @@ fullWidth: True
                 </div>
                 <div>
                     <a class="gdoc-two-columns__column__link"
-                        href="https://www.nuget.org/packages/GroupDocs.Total/26.3">GroupDocs.Total 26.3</a>
+                        href="https://www.nuget.org/packages/GroupDocs.Total/26.4">GroupDocs.Total 26.4</a>
                     <div class="gdoc-two-columns__column__descr">
                         - .NET 6.0 assembly.
                         <br>
@@ -46,7 +46,7 @@ fullWidth: True
                 </div>
                 <div>
                     <a class="gdoc-two-columns__column__link"
-                        href="https://www.nuget.org/packages/GroupDocs.Total.NETFramework/26.3">GroupDocs.Total.NETFramework 26.3</a>
+                        href="https://www.nuget.org/packages/GroupDocs.Total.NETFramework/26.4">GroupDocs.Total.NETFramework 26.4</a>
                         <div class="gdoc-two-columns__column__descr">
                         - .NET Framework assembly.
                         <br>
