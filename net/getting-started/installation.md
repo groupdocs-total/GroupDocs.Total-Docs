@@ -26,7 +26,7 @@ This topic describes how to add the **GroupDocs.Total** library to your .NET pro
                     <a class="gdoc-two-columns__column__link"
                         href="https://www.nuget.org/packages/GroupDocs.Total">GroupDocs.Total</a>
                     <div class="gdoc-two-columns__column__descr">
-                        - .NET Standard 6.0 assembly.
+                        - .NET 6.0 assembly.
                         <br>
                         - .NET Standard 2.0 in versions prior to 24.9.
                     </div>
@@ -61,6 +61,7 @@ You can also use GroupDocs.Total with .NET Framework 2.0 (Visual Studio 2005-200
 
 | Package version | Target frameworks |
 | --- | --- |
+| [26.6](https://www.nuget.org/packages/GroupDocs.Total/26.6) | .NET 6.0 |
 | [26.4](https://www.nuget.org/packages/GroupDocs.Total/26.4) | .NET 6.0 |
 | [26.3](https://www.nuget.org/packages/GroupDocs.Total/26.3) | .NET 6.0 |
 | [25.12](https://www.nuget.org/packages/GroupDocs.Total/25.12) | .NET 6.0 |
@@ -153,6 +154,7 @@ You can also use GroupDocs.Total with .NET Framework 2.0 (Visual Studio 2005-200
 
 | Package version | Target frameworks |
 | --- | --- |
+| [26.6.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/26.6.0) | .NET Framework 4.6.2 |
 | [26.4.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/26.4.0) | .NET Framework 4.6.2 |
 | [26.3.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/26.3.0) | .NET Framework 4.6.2 |
 | [25.12.0](https://www.nuget.org/packages/GroupDocs.Total.NETFramework/25.12.0) | .NET Framework 4.6.2 |
