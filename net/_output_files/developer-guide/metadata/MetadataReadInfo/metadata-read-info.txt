@@ -1,0 +1,6 @@
+File format: WordProcessing
+Extension: .docx
+MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Pages: 3
+Size: 15096 bytes
+Encrypted: False

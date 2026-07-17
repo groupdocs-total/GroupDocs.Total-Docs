@@ -64,7 +64,7 @@ You can apply licenses from various locations:
 
 #### 1. From a File
 
-{{< tabs "example1">}}
+{{< tabs "license-from-file" >}}
 {{< tab "C#" >}}
 
 ```csharp
@@ -87,7 +87,7 @@ licenseConversion.SetLicense(licensePath);
 
 #### 2. From a Stream
 
-{{< tabs "example2">}}
+{{< tabs "license-from-stream" >}}
 {{< tab "C#" >}}
 
 ```csharp
@@ -117,7 +117,7 @@ To use an embedded license:
 2. Set its **Build Action** property to "Embedded Resource"
 3. Ensure the license name matches the parameter in `SetLicense`
 
-{{< tabs "example3">}}
+{{< tabs "license-embedded" >}}
 {{< tab "C#" >}}
 
 ```csharp
@@ -139,7 +139,7 @@ licenseConversion.SetLicense("GroupDocs.Total.lic");
 
 For pay-as-you-go licensing, use the Metered License option. For more details, see the [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered/).
 
-{{< tabs "example4">}}
+{{< tabs "license-metered" >}}
 {{< tab "C#" >}}
 
 

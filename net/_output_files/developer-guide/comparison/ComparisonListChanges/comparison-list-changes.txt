@@ -1,0 +1,8 @@
+Changes found: 7
+0. Deleted | source: 'The vendor shall deliver the completed remediation plan by 30 June 2026.' | target: 'The vendor shall deliver the completed remediation plan by 31 August 2026.'
+1. Inserted | source: 'The vendor shall deliver the completed remediation plan by 30 June 2026.' | target: 'The vendor shall deliver the completed remediation plan by 31 August 2026.'
+2. Inserted | source: 'The vendor shall deliver the completed remediation plan by 30 June 2026.' | target: 'The vendor shall deliver the completed remediation plan by 31 August 2026.'
+3. Deleted | source: 'The vendor shall deliver the completed remediation plan by 30 June 2026.' | target: 'The vendor shall deliver the completed remediation plan by 31 August 2026.'
+4. Inserted | source: 'The total contract value is 120,000 USD, payable in three instalments.' | target: 'The total contract value is 145,000 USD, payable in three instalments.'
+5. Deleted | source: 'The total contract value is 120,000 USD, payable in three instalments.' | target: 'The total contract value is 145,000 USD, payable in three instalments.'
+6. Inserted | source: '' | target: 'A late delivery penalty of 2,000 USD per week applies after the delivery date, capped at ten per cent of the total contract value.'
