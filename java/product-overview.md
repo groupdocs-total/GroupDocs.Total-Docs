@@ -10,7 +10,7 @@ productName: GroupDocs.Total for Java
 toc: True
 ---
 
-GroupDocs.Total for Java is a comprehensive suite of document automation .NET on-premise APIs offered by GroupDocs. We compile it monthly to ensure you have access to the latest versions of our document manipulation APIs.
+GroupDocs.Total for Java is a comprehensive suite of document automation on-premise APIs offered by GroupDocs. We compile it monthly to ensure you have access to the latest versions of our document manipulation APIs.
 
 With GroupDocs.Total for Java, developers can leverage all our APIs with a single license. Alternatively, you also have the option to order any individual API separately.
 

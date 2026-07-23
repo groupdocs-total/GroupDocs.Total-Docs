@@ -1,0 +1,19 @@
+Consulting Services Agreement
+Cascade Partners and Aldergrove Manufacturing
+This agreement records the terms under which Cascade Partners will deliver the engagement known internally as Project Northlight. It is issued by Dana Whitfield, Engagement Lead, and countersigned by Marcus Oyelaran.
+1. Scope of work
+Cascade Partners will review the current order-to-cash process at Aldergrove Manufacturing, identify the constraints limiting throughput, and deliver a prioritised remediation plan with an implementation roadmap.
+The engagement covers the following workstreams:
+Process discovery across order intake, fulfilment and invoicing
+Data analysis of eighteen months of transaction history
+Constraint modelling and options appraisal
+A remediation roadmap with sequencing and effort estimates
+2. Schedule
+The vendor shall deliver the completed remediation plan by 30 June 2026.
+Interim findings will be presented at the end of each workstream. The client will provide feedback within five working days of each presentation.
+2.1 Milestones
+MilestoneOwnerWorkstreamDiscovery completeDana WhitfieldProcess discoveryAnalysis completeMarcus OyelaranData analysisDraft roadmapDana WhitfieldConstraint modellingFinal plan deliveredDana WhitfieldRemediation roadmap3. Fees
+The total contract value is 120,000 USD, payable in three instalments.
+Invoices are issued on milestone acceptance and are payable within thirty days. Expenses are billed at cost and require prior written approval.
+4. Change control
+Either party may request a change to the scope, schedule or fees. A change takes effect only once both parties have signed a written change note recording its impact on each of the three.

@@ -58,7 +58,7 @@ GroupDocs.Total features a plethora of tools that enable you to customize and co
 </ul>
 <p>API REFERENCE</p>
 <ul>
-    <li><a href="https://reference.groupdocs.com/">GroupDocs.Total for .NET API Reference</a></li>
+    <li><a href="https://reference.groupdocs.com/">GroupDocs.Total for Java API Reference</a></li>
 </ul>
 
 <--->
@@ -66,7 +66,7 @@ GroupDocs.Total features a plethora of tools that enable you to customize and co
 <p><b>Useful Resources</b></p>
 <hr><p>VERSION HISTORY</p></hr>
 <ul>
-    <li><a href='https://releases.groupdocs.com/total/java/release-notes/'>GroupDocs.Total for .NET Release Notes</a></li>
+    <li><a href='https://releases.groupdocs.com/total/java/release-notes/'>GroupDocs.Total for Java Release Notes</a></li>
 </ul>
 
 <p>TECHNICAL SUPPORT</p>

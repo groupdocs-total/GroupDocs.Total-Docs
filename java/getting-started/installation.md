@@ -56,7 +56,7 @@ Define GroupDocs.Total for Java API dependency in your `pom.xml`:
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-total</artifactId>
-        <version>24.10</version> 
+        <version>26.6</version> 
     </dependency>
 </dependencies>
 ```
@@ -97,7 +97,7 @@ public class App {
 {{< /tab >}}
 {{< tab "groupdocs-total.jar" >}}
 {{< tab-text >}}
-`groupdocs-total.jar` is GroupDocs.Total for Java JAR file e.g., [groupdocs-total-24.10.jar](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-total/24.10/groupdocs-total-24.10.jar).
+`groupdocs-total.jar` is GroupDocs.Total for Java JAR file e.g., [groupdocs-total-26.6.jar](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-total/26.6/groupdocs-total-26.6.jar).
 {{< /tab-text >}}
 {{< /tab >}}
 {{< /tabs >}}
