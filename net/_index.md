@@ -11,7 +11,7 @@ fullWidth: True
 ---      
 
 <div class="gdoc-two-columns" style="display:flow-root;">
-    <img src="/logo/128x128/groupdocs-total-net.png" alt="groupdocs-total-net-home" align="left" style="width:110px; margin: 0 30px 10px 0"/>
+    <img src="/logo/128x128/groupdocs-total-net.png" alt="groupdocs-total-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
     <img src="https://img.shields.io/nuget/v/groupdocs.total?label=Nuget" alt="Nuget">
     <img src="https://img.shields.io/nuget/dt/GroupDocs.Total?label=nuget%20downloads" alt="Nuget">
     <br>

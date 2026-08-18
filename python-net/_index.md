@@ -10,7 +10,7 @@ hideChildren: True
 fullWidth: True
 ---      
 
-<img src="/total/python-net/_images/home.svg" alt="groupdocs-total-python-via-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-total-python.png" alt="groupdocs-total-python-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 {{< button style="primary" link="https://releases.groupdocs.com/total/python-net/release-notes/" >}} <svg class="gdoc-icon gdoc-product-doc__btn-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg> Release notes {{< /button >}} 
 {{< button style="primary" link="https://pypi.org/project/groupdocs-total-net/" >}} {{< icon "gdoc_download" >}} PyPI download {{< /button >}}
