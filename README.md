@@ -6,7 +6,7 @@ This repository contains Markdown files used to generate [GroupDocs.Total](https
 
 [GroupDocs.Total](https://products.groupdocs.com/total/) is a comprehensive document processing suite that combines all GroupDocs APIs, giving you access to viewing, conversion, annotation, comparison, signature, and other document operations in a single package.
 
-Available for .NET, Java, and Python.
+Available for .NET, Java, Node.js via Java, and Python.
 
 ## Repository Purpose
 

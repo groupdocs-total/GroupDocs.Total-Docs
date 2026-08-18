@@ -11,7 +11,7 @@ showFeedbackForm: false
 ---
 
 <div class="gdoc-list-descr">
-Comprehensive suite of .NET or Java libraries for document manipulation and management - view, edit, convert and sign various file formats such as Word, Excel, PowerPoint, PDF, images and more
+Comprehensive suite of .NET, Java, Node.js, and Python libraries for document manipulation and management - view, edit, convert and sign various file formats such as Word, Excel, PowerPoint, PDF, images and more
 </div>
 
 <h2 class="gdoc-product-title">Documentation</h2>
@@ -20,6 +20,7 @@ Comprehensive suite of .NET or Java libraries for document manipulation and mana
 <ul >
 <li><a href="#total_net">.NET</a></li>
 <li><a href="#total_java">Java</a></li>
+<li><a href="#total_nodejs-java">Node.js</a></li>
 <li><a href="#total_python_net">Python via .NET</a></li>
 </ul>
 </div>
@@ -111,7 +112,50 @@ Comprehensive suite of .NET or Java libraries for document manipulation and mana
         <div class="gdoc-platform__footer">
             <a class="gdoc-platform__footer-btn"  href='/total/java/'>More</a>
         </div>
-    </div>    
+    </div>
+    <div class="gdoc-platform">
+    <a id="total_nodejs-java"></a>
+        <div class="gdoc-platform__header">
+            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#nodejs"></use></svg>
+            <a class="gdoc-platform__header-title"  href='/total/nodejs-java/'>GroupDocs.Total for Node.js via Java</a>
+            <a class="gdoc-platform__header-btn"  href='/total/nodejs-java/'>More</a>
+        </div>
+        <div class="gdoc-platform__cols">
+            <div class="gdoc-platform__col">
+                <div class="gdoc-platform__col-title">
+                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
+                <div>Getting started</div></div>
+                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
+                <ul class="gdoc-platform__col-links">
+                    <li> <a href='/total/nodejs-java/product-overview/'>Product overview</a></li>
+                    <li> <a href='/total/nodejs-java/system-requirements/'>System requirements</a></li>
+                    <li> <a href='/total/nodejs-java/installation/'>Installation</a></li>
+                </ul>
+            </div>
+            <div class="gdoc-platform__col">
+                <div class="gdoc-platform__col-title">
+                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
+                    <div>Licensing and support</div></div>
+                    <div class="gdoc-platform__col-descr">Articles and guidelines</div>
+                    <ul class="gdoc-platform__col-links">
+                        <li> <a href='/total/nodejs-java/licensing-and-evaluation/'>Licensing</a></li>
+                        <li> <a href='/total/nodejs-java/technical-support/'>Technical support</a></li>
+                    </ul>
+                </div>
+            <div class="gdoc-platform__col">
+                <div class="gdoc-platform__col-title">
+                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
+                <div>Node.js via Java code examples</div></div>
+                <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
+                <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
+                    <li> <a href='https://github.com/groupdocs-total/GroupDocs.Total-for-Node.js-via-Java'>GroupDocs.Total for Node.js via Java</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="gdoc-platform__footer">
+            <a class="gdoc-platform__footer-btn"  href='/total/nodejs-java/'>More</a>
+        </div>
+    </div>
     <div class="gdoc-platform">
      <a id="total_python_net"></a>
         <div class="gdoc-platform__header">

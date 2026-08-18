@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Hugo-based static documentation site for the GroupDocs.Total product family, published to https://docs.groupdocs.com/total/. It contains Markdown documentation for three platforms: .NET (`net/`), Java (`java/`), and Python via .NET (`python-net/`).
+This is a Hugo-based static documentation site for the GroupDocs.Total product family, published to https://docs.groupdocs.com/total/. It contains Markdown documentation for four platforms: .NET (`net/`), Java (`java/`), Node.js via Java (`nodejs-java/`), and Python via .NET (`python-net/`).
 
 ## Build and Run Locally
 
@@ -24,10 +24,10 @@ Both scripts initialize the `common/` git submodule, copy platform content into 
 
 ## Architecture
 
-- **Content directories** (`net/`, `java/`, `python-net/`): Markdown documentation organized per platform. Each has `getting-started/`, product overview, and support pages.
+- **Content directories** (`net/`, `java/`, `nodejs-java/`, `python-net/`): Markdown documentation organized per platform. Each has `getting-started/`, product overview, and support pages.
 - **`common/`**: Git submodule pointing to `docs.groupdocs.com`. Contains the Hugo configuration (`config-geekdoc.toml`, `show-feedback-config.toml`), the `hugo-geekdoc` theme, and shared assets. This directory is gitignored.
-- **`_index.md`**: Root landing page with links to all three platform docs.
-- **Build process**: Content from `net/`, `java/`, `python-net/`, and `_index.md` is copied into `common/content/total/` before Hugo builds. Hugo reads config from `common/`.
+- **`_index.md`**: Root landing page with links to all four platform docs.
+- **Build process**: Content from `net/`, `java/`, `nodejs-java/`, `python-net/`, and `_index.md` is copied into `common/content/total/` before Hugo builds. Hugo reads config from `common/`.
 
 ## Deployment
 

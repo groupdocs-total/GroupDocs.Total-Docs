@@ -1,0 +1,261 @@
+{
+  "annotation-add-area": {
+    "type": "file",
+    "file": "annotation-add-area.pdf",
+    "path": "developer-guide/annotation/AnnotationAddArea/annotation-add-area.pdf",
+    "preview": "Binary file (PDF, 16 KB)",
+    "function": "AnnotationAddArea"
+  },
+  "annotation-highlight": {
+    "type": "file",
+    "file": "annotation-highlight.pdf",
+    "path": "developer-guide/annotation/AnnotationHighlight/annotation-highlight.pdf",
+    "preview": "Binary file (PDF, 15 KB)",
+    "function": "AnnotationHighlight"
+  },
+  "annotation-extract": {
+    "type": "file",
+    "file": "annotation-extract.pdf",
+    "path": "developer-guide/annotation/AnnotationExtract/annotation-extract.pdf",
+    "preview": "Binary file (PDF, 16 KB)",
+    "function": "AnnotationExtract"
+  },
+  "comparison-compare-documents": {
+    "type": "file",
+    "file": "comparison-compare-documents.docx",
+    "path": "developer-guide/comparison/ComparisonCompareDocuments/comparison-compare-documents.docx",
+    "preview": "Binary file (DOCX, 16 KB)",
+    "function": "ComparisonCompareDocuments"
+  },
+  "comparison-list-changes": {
+    "type": "text",
+    "file": "comparison-list-changes.txt",
+    "path": "developer-guide/comparison/ComparisonListChanges/comparison-list-changes.txt",
+    "preview": "Changes found: 7\n0. Deleted | source: 'The vendor shall deliver the completed remediation plan by 30 June 2026.' | target: 'The vendor shall deliver the completed remediation plan by 31 August 2026.'\n1. Inserted | source: 'The vendor shall deliver the completed remediation plan by 30 June 2026.' | target: 'The vendor shall deliver the completed remediation plan by 31 August 2026.'\n2. Inserted | source: 'The vendor shall deliver the completed remediation plan by 30 June 2026.' | target: 'The vend\n[TRUNCATED]",
+    "function": "ComparisonListChanges"
+  },
+  "comparison-accept-reject": {
+    "type": "file",
+    "file": "comparison-accept-reject.docx",
+    "path": "developer-guide/comparison/ComparisonAcceptReject/comparison-accept-reject.docx",
+    "preview": "Binary file (DOCX, 16 KB)",
+    "function": "ComparisonAcceptReject"
+  },
+  "conversion-pdf-to-word": {
+    "type": "file",
+    "file": "conversion-pdf-to-word.docx",
+    "path": "developer-guide/conversion/ConversionPdfToWord/conversion-pdf-to-word.docx",
+    "preview": "Binary file (DOCX, 19 KB)",
+    "function": "ConversionPdfToWord"
+  },
+  "conversion-word-to-pdf": {
+    "type": "file",
+    "file": "conversion-word-to-pdf.pdf",
+    "path": "developer-guide/conversion/ConversionWordToPdf/conversion-word-to-pdf.pdf",
+    "preview": "Binary file (PDF, 123 KB)",
+    "function": "ConversionWordToPdf"
+  },
+  "conversion-document-info": {
+    "type": "text",
+    "file": "conversion-document-info.txt",
+    "path": "developer-guide/conversion/ConversionDocumentInfo/conversion-document-info.txt",
+    "preview": "Format: pdf\nPages: 3\nSize: 130412 bytes",
+    "function": "ConversionDocumentInfo"
+  },
+  "editor-document-to-html": {
+    "type": "file",
+    "file": "editor-document-to-html.html",
+    "path": "developer-guide/editor/EditorDocumentToHtml/editor-document-to-html.html",
+    "preview": "<!DOCTYPE html>\n<html><head><meta charset = \"utf-8\" /><title>Consulting Services Agreement - Aldergrove Manufacturing</title><meta name = \"author\" content = \"Dana Whitfield\" /><style type = \"text/css\">@page Section1 { margin: 72pt; size: 612pt; }\na { text-decoration: none; }\n.Default_Paragraph_Font, .BuiltIn-style, .Character-style { -aw-style-name: defaultparagraphfont; -gd-style-name: 'Default Paragraph Font'; font-family: 'Times New Roman'; font-size: 10pt; font-weight: normal; font-style: no\n[TRUNCATED]",
+    "function": "EditorDocumentToHtml"
+  },
+  "editor-html-to-document": {
+    "type": "file",
+    "file": "editor-html-to-document.docx",
+    "path": "developer-guide/editor/EditorHtmlToDocument/editor-html-to-document.docx",
+    "preview": "Binary file (DOCX, 12 KB)",
+    "function": "EditorHtmlToDocument"
+  },
+  "editor-save-as-rtf": {
+    "type": "file",
+    "file": "editor-save-as-rtf.rtf",
+    "path": "developer-guide/editor/EditorSaveAsRtf/editor-save-as-rtf.rtf",
+    "preview": "Binary file (RTF, 693 KB)",
+    "function": "EditorSaveAsRtf"
+  },
+  "merger-join-documents": {
+    "type": "file",
+    "file": "merger-join-documents.docx",
+    "path": "developer-guide/merger/MergerJoinDocuments/merger-join-documents.docx",
+    "preview": "Binary file (DOCX, 15 KB)",
+    "function": "MergerJoinDocuments"
+  },
+  "merger-split-pages": {
+    "type": "zip",
+    "file": "merger-split-pages.zip",
+    "path": "developer-guide/merger/MergerSplitPages/merger-split-pages.zip",
+    "contents": [
+      "merger-split-pages\\page_1.docx",
+      "merger-split-pages\\page_2.docx",
+      "merger-split-pages\\page_3.docx"
+    ],
+    "preview": "merger-split-pages/page_1.docx (14 KB)\nmerger-split-pages/page_2.docx (10 KB)\nmerger-split-pages/page_3.docx (8 KB)",
+    "function": "MergerSplitPages"
+  },
+  "merger-document-info": {
+    "type": "text",
+    "file": "merger-document-info.txt",
+    "path": "developer-guide/merger/MergerDocumentInfo/merger-document-info.txt",
+    "preview": "File type: Microsoft Word Open XML Document\nPages: 3\nSize: 15096 bytes",
+    "function": "MergerDocumentInfo"
+  },
+  "metadata-read-info": {
+    "type": "text",
+    "file": "metadata-read-info.txt",
+    "path": "developer-guide/metadata/MetadataReadInfo/metadata-read-info.txt",
+    "preview": "File format: WordProcessing\nExtension: .docx\nMIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\nPages: 3\nSize: 15096 bytes\nEncrypted: false",
+    "function": "MetadataReadInfo"
+  },
+  "metadata-find-properties": {
+    "type": "text",
+    "file": "metadata-find-properties.txt",
+    "path": "developer-guide/metadata/MetadataFindProperties/metadata-find-properties.txt",
+    "preview": "Author = Dana Whitfield\ndc:creator = Dana Whitfield",
+    "function": "MetadataFindProperties"
+  },
+  "metadata-sanitize": {
+    "type": "file",
+    "file": "metadata-sanitize.docx",
+    "path": "developer-guide/metadata/MetadataSanitize/metadata-sanitize.docx",
+    "preview": "Binary file (DOCX, 14 KB)",
+    "function": "MetadataSanitize"
+  },
+  "parser-extract-text": {
+    "type": "text",
+    "file": "parser-extract-text.txt",
+    "path": "developer-guide/parser/ParserExtractText/parser-extract-text.txt",
+    "preview": "Consulting Services Agreement\nCascade Partners and Aldergrove Manufacturing\nThis agreement records the terms under which Cascade Partners will deliver the engagement known internally as Project Northlight. It is issued by Dana Whitfield, Engagement Lead, and countersigned by Marcus Oyelaran.\n\n1. Scope of work\nCascade Partners will review the current order-to-cash process at Aldergrove Manufacturing, identify the constraints limiting throughput, and deliver a prioritised remediation plan with an \n[TRUNCATED]",
+    "function": "ParserExtractText"
+  },
+  "parser-extract-page": {
+    "type": "text",
+    "file": "parser-extract-page.txt",
+    "path": "developer-guide/parser/ParserExtractPage/parser-extract-page.txt",
+    "preview": "Consulting Services Agreement\nCascade Partners and Aldergrove Manufacturing\nThis agreement records the terms under which Cascade Partners will deliver the engagement known internally as Project Northlight. It is issued by Dana Whitfield, Engagement Lead, and countersigned by Marcus Oyelaran.\n1. Scope of work\nCascade Partners will review the current order-to-cash process at Aldergrove Manufacturing, identify the constraints limiting throughput, and deliver a prioritised remediation plan with an i\n[TRUNCATED]",
+    "function": "ParserExtractPage"
+  },
+  "parser-extract-markdown": {
+    "type": "file",
+    "file": "parser-extract-markdown.md",
+    "path": "developer-guide/parser/ParserExtractMarkdown/parser-extract-markdown.md",
+    "preview": "**Consulting Services Agreement**\n\nCascade Partners and Aldergrove Manufacturing\n\nThis agreement records the terms under which Cascade Partners will deliver the engagement known internally as Project Northlight. It is issued by Dana Whitfield, Engagement Lead, and countersigned by Marcus Oyelaran.\n\n# **1. Scope of work**\n\nCascade Partners will review the current order-to-cash process at Aldergrove Manufacturing, identify the constraints limiting throughput, and deliver a prioritised remediation \n[TRUNCATED]",
+    "function": "ParserExtractMarkdown"
+  },
+  "parser-document-info": {
+    "type": "text",
+    "file": "parser-document-info.txt",
+    "path": "developer-guide/parser/ParserDocumentInfo/parser-document-info.txt",
+    "preview": "File type: Microsoft Word Open XML Document\nPages: 3\nSize: 15096 bytes",
+    "function": "ParserDocumentInfo"
+  },
+  "redaction-exact-phrase": {
+    "type": "file",
+    "file": "redaction-exact-phrase.docx",
+    "path": "developer-guide/redaction/RedactionExactPhrase/redaction-exact-phrase.docx",
+    "preview": "Binary file (DOCX, 15 KB)",
+    "function": "RedactionExactPhrase"
+  },
+  "redaction-regex": {
+    "type": "file",
+    "file": "redaction-regex.docx",
+    "path": "developer-guide/redaction/RedactionRegex/redaction-regex.docx",
+    "preview": "Binary file (DOCX, 15 KB)",
+    "function": "RedactionRegex"
+  },
+  "redaction-metadata": {
+    "type": "file",
+    "file": "redaction-metadata.docx",
+    "path": "developer-guide/redaction/RedactionMetadata/redaction-metadata.docx",
+    "preview": "Binary file (DOCX, 14 KB)",
+    "function": "RedactionMetadata"
+  },
+  "signature-sign-with-text": {
+    "type": "file",
+    "file": "signature-sign-with-text.docx",
+    "path": "developer-guide/signature/SignatureSignWithText/signature-sign-with-text.docx",
+    "preview": "Binary file (DOCX, 16 KB)",
+    "function": "SignatureSignWithText"
+  },
+  "signature-sign-with-qr-code": {
+    "type": "file",
+    "file": "signature-sign-with-qr-code.docx",
+    "path": "developer-guide/signature/SignatureSignWithQrCode/signature-sign-with-qr-code.docx",
+    "preview": "Binary file (DOCX, 20 KB)",
+    "function": "SignatureSignWithQrCode"
+  },
+  "signature-search": {
+    "type": "file",
+    "file": "signature-search.docx",
+    "path": "developer-guide/signature/SignatureSearch/signature-search.docx",
+    "preview": "Binary file (DOCX, 20 KB)",
+    "function": "SignatureSearch"
+  },
+  "viewer-render-to-html": {
+    "type": "zip",
+    "file": "viewer-render-to-html.zip",
+    "path": "developer-guide/viewer/ViewerRenderToHtml/viewer-render-to-html.zip",
+    "contents": [
+      "viewer-render-to-html\\page_1.html",
+      "viewer-render-to-html\\page_2.html",
+      "viewer-render-to-html\\page_3.html"
+    ],
+    "preview": "viewer-render-to-html/page_1.html (147 KB)\nviewer-render-to-html/page_2.html (74 KB)\nviewer-render-to-html/page_3.html (828 bytes)",
+    "function": "ViewerRenderToHtml"
+  },
+  "viewer-render-to-pdf": {
+    "type": "file",
+    "file": "viewer-render-to-pdf.pdf",
+    "path": "developer-guide/viewer/ViewerRenderToPdf/viewer-render-to-pdf.pdf",
+    "preview": "Binary file (PDF, 126 KB)",
+    "function": "ViewerRenderToPdf"
+  },
+  "viewer-render-to-png": {
+    "type": "zip",
+    "file": "viewer-render-to-png.zip",
+    "path": "developer-guide/viewer/ViewerRenderToPng/viewer-render-to-png.zip",
+    "contents": [
+      "viewer-render-to-png\\page_1.png",
+      "viewer-render-to-png\\page_2.png"
+    ],
+    "preview": "viewer-render-to-png/page_1.png (86 KB)\nviewer-render-to-png/page_2.png (87 KB)",
+    "function": "ViewerRenderToPng"
+  },
+  "viewer-document-info": {
+    "type": "text",
+    "file": "viewer-document-info.txt",
+    "path": "developer-guide/viewer/ViewerDocumentInfo/viewer-document-info.txt",
+    "preview": "File type: Microsoft Word Open XML Document (.docx)\nPages: 3\nPage 1: 612x792\nPage 2: 612x792\nPage 3: 612x792",
+    "function": "ViewerDocumentInfo"
+  },
+  "watermark-add-text": {
+    "type": "file",
+    "file": "watermark-add-text.docx",
+    "path": "developer-guide/watermark/WatermarkAddText/watermark-add-text.docx",
+    "preview": "Binary file (DOCX, 16 KB)",
+    "function": "WatermarkAddText"
+  },
+  "watermark-add-image": {
+    "type": "file",
+    "file": "watermark-add-image.pdf",
+    "path": "developer-guide/watermark/WatermarkAddImage/watermark-add-image.pdf",
+    "preview": "Binary file (PDF, 153 KB)",
+    "function": "WatermarkAddImage"
+  },
+  "watermark-spreadsheet": {
+    "type": "file",
+    "file": "watermark-spreadsheet.xlsx",
+    "path": "developer-guide/watermark/WatermarkSpreadsheet/watermark-spreadsheet.xlsx",
+    "preview": "Binary file (XLSX, 12 KB)",
+    "function": "WatermarkSpreadsheet"
+  }
+}
