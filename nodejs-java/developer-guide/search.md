@@ -3,7 +3,7 @@ id: search
 url: total/nodejs-java/developer-guide/search
 title: Search document collections with GroupDocs.Search
 linkTitle: Search
-weight: 10
+weight: 12
 description: "Build a full-text index over a folder of documents and query it with GroupDocs.Total for Node.js via Java — runnable JavaScript examples with downloadable input and output files."
 keywords: GroupDocs.Search, full text search, document search, search index, fuzzy search, boolean query, Node.js
 productName: GroupDocs.Total for Node.js via Java

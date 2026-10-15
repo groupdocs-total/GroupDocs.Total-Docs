@@ -21,10 +21,12 @@ The products included in the GroupDocs.Total for Node.js via Java suite are list
 | Product | Description |
 |:--|---|
 | [GroupDocs.Annotation for Node.js via Java](https://docs.groupdocs.com/annotation/) | A powerful library for adding document annotation features to your applications, enabling users to annotate and collaborate on various document types. |
+| [GroupDocs.Assembly for Node.js via Java](https://docs.groupdocs.com/assembly/nodejs-java/) | Generate documents from templates, filling them with JSON, XML, CSV or spreadsheet data. |
 | [GroupDocs.Comparison for Node.js via Java](https://docs.groupdocs.com/comparison/nodejs-java/) | A library for document comparison, enabling users to identify differences and visualize changes between two documents. | 
 | [GroupDocs.Conversion for Node.js via Java](https://docs.groupdocs.com/conversion/nodejs-java/) | Convert documents between different formats, supporting a wide range of document types and providing flexibility in format conversion. | 
 | [GroupDocs.Editor for Node.js via Java](https://docs.groupdocs.com/editor/nodejs-java/) | Incorporate document editing capabilities into your Node.js applications, allowing users to edit and manipulate documents through an HTML round trip. | 
 | [GroupDocs.Merger for Node.js via Java](https://docs.groupdocs.com/merger/nodejs-java/) | Merge or split documents effortlessly in your Node.js applications, providing various options for document manipulation. |
+| [GroupDocs.Markdown for Node.js via Java](https://docs.groupdocs.com/markdown/java/) | Convert Word, PDF, spreadsheets and other documents into structured Markdown for static sites, search and language models. |
 | [GroupDocs.Metadata for Node.js via Java](https://docs.groupdocs.com/metadata/nodejs-java/) | Access and modify metadata information in documents, offering comprehensive metadata management features. | 
 | [GroupDocs.Parser for Node.js via Java](https://docs.groupdocs.com/parser/) | Extract data from documents with ease, supporting text and metadata extraction from various document formats. |
 | [GroupDocs.Redaction for Node.js via Java](https://docs.groupdocs.com/redaction/) | Securely redact sensitive information from documents, ensuring data privacy and compliance with regulations. |
@@ -33,7 +35,7 @@ The products included in the GroupDocs.Total for Node.js via Java suite are list
 | [GroupDocs.Viewer for Node.js via Java](https://docs.groupdocs.com/viewer/nodejs-java/) | Embed document viewing capabilities into your Node.js applications, supporting a wide range of document formats for seamless viewing. |
 | [GroupDocs.Watermark for Node.js via Java](https://docs.groupdocs.com/watermark/nodejs-java/) | Protect your documents by adding watermarks, offering various watermarking options for enhanced document security. | 
 
-GroupDocs.Assembly and GroupDocs.Classification are separate products and are not part of GroupDocs.Total for Node.js via Java.
+GroupDocs.Classification is a separate product and is not part of GroupDocs.Total for Node.js via Java.
 
 You can use GroupDocs.Total across multiple platforms and operation systems:
 

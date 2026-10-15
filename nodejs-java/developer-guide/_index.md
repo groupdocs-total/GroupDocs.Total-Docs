@@ -26,20 +26,23 @@ These pages are a starting point, not a reference. Once you know which API you n
 | [Metadata](/total/nodejs-java/developer-guide/metadata/) | Read, edit and strip document metadata | `Metadata` |
 | [Parser](/total/nodejs-java/developer-guide/parser/) | Extract text, images and data from documents | `Parser` |
 | [Merger](/total/nodejs-java/developer-guide/merger/) | Join, split and rearrange documents and their pages | `Merger` |
+| [Assembly](/total/nodejs-java/developer-guide/assembly/) | Generate documents from a template and a data source | `DocumentAssembler` |
+| [Markdown](/total/nodejs-java/developer-guide/markdown/) | Convert documents to structured Markdown | `MarkdownConverter` |
 | [Redaction](/total/nodejs-java/developer-guide/redaction/) | Remove sensitive content so it cannot be recovered | `Redactor` |
 | [Signature](/total/nodejs-java/developer-guide/signature/) | Sign documents electronically and verify existing signatures | `Signature` |
 | [Search](/total/nodejs-java/developer-guide/search/) | Index a document collection and query it | `Index` |
 | [Editor](/total/nodejs-java/developer-guide/editor/) | Round-trip a document through HTML for a web editor | `Editor` |
 | [Annotation](/total/nodejs-java/developer-guide/annotation/) | Add review markup and read it back | `Annotator` |
 
-GroupDocs.Assembly and GroupDocs.Classification are not part of GroupDocs.Total for Node.js via Java and are not covered here.
+GroupDocs.Classification is not part of GroupDocs.Total for Node.js via Java and is not covered here.
 
-Most of these follow the same shape — open a file, do one thing, save. Two do not, and their pages
-explain why: **Search** works on a folder rather than a file and indexes before it queries, and
-**Editor** is a three-stage round trip through HTML rather than a single call.
+Most of these follow the same shape — open a file, do one thing, save. Three do not, and their pages
+explain why: **Search** works on a folder rather than a file and indexes before it queries,
+**Assembly** needs a template you author first, and **Editor** is a three-stage round trip through
+HTML rather than a single call.
 
 {{< alert style="info" >}}
-Main entry points (`Viewer`, `Converter`, `Comparer`, and the rest) are exported from `@groupdocs/groupdocs.total`. Options and helper classes are loaded with `java.import('fully.qualified.ClassName')` after you have imported the package.
+Main entry points (`Viewer`, `Converter`, `Comparer`, and the rest) are exported from `@groupdocs/groupdocs.total`. Options, helper classes, and the Assembly and Markdown types (`DocumentAssembler`, `MarkdownConverter`, and the data-source classes) are loaded with `java.import('fully.qualified.ClassName')` after you have imported the package.
 {{< /alert >}}
 
 ## Before you start

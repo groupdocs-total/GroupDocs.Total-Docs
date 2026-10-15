@@ -3,7 +3,7 @@ id: redaction
 url: total/nodejs-java/developer-guide/redaction
 title: Redact documents with GroupDocs.Redaction
 linkTitle: Redaction
-weight: 8
+weight: 10
 description: "Remove sensitive text, patterns and metadata from documents with GroupDocs.Total for Node.js via Java, with runnable JavaScript examples and downloadable input and output files."
 keywords: GroupDocs.Redaction, redact document, remove sensitive data, redact Word, GDPR, data privacy, Node.js
 productName: GroupDocs.Total for Node.js via Java

@@ -17,10 +17,12 @@ Explore the diverse file formats supported by GroupDocs.Total for Node.js via Ja
 | Product | Documentation page|
 | --- | --- |
 | GroupDocs.Annotation for Node.js via Java | [supported file formats](https://docs.groupdocs.com/annotation/java/supported-document-formats/) |
+| GroupDocs.Assembly for Node.js via Java | [supported file formats](https://docs.groupdocs.com/assembly/nodejs-java/supported-document-formats/) |
 | GroupDocs.Conversion for Node.js via Java | [supported file formats](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/) |
 | GroupDocs.Comparison for Node.js via Java | [supported file formats](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/) |
 | GroupDocs.Editor for Node.js via Java | [supported file formats](https://docs.groupdocs.com/editor/nodejs-java/supported-document-formats/) |
 | GroupDocs.Merger for Node.js via Java | [supported file formats](https://docs.groupdocs.com/merger/nodejs-java/supported-document-formats/) |
+| GroupDocs.Markdown for Node.js via Java | [supported file formats](https://docs.groupdocs.com/markdown/java/supported-file-formats/) |
 | GroupDocs.Metadata for Node.js via Java | [supported file formats](https://docs.groupdocs.com/metadata/nodejs-java/supported-document-formats/) |
 | GroupDocs.Parser for Node.js via Java | [supported file formats](https://docs.groupdocs.com/parser/java/supported-document-formats/) |
 | GroupDocs.Redaction for Node.js via Java | [supported file formats](https://docs.groupdocs.com/redaction/java/supported-document-formats/) |

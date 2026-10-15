@@ -3,7 +3,7 @@ id: signature
 url: total/nodejs-java/developer-guide/signature
 title: Sign and verify documents with GroupDocs.Signature
 linkTitle: Signature
-weight: 9
+weight: 11
 description: "Add text, QR-code and barcode signatures to documents from GroupDocs.Total for Node.js via Java, then search and verify them — runnable JavaScript examples with downloadable input and output files."
 keywords: GroupDocs.Signature, electronic signature, esign, sign document, QR code signature, verify signature, Node.js
 productName: GroupDocs.Total for Node.js via Java

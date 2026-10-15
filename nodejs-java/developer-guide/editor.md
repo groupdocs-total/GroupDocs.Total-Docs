@@ -3,7 +3,7 @@ id: editor
 url: total/nodejs-java/developer-guide/editor
 title: Edit documents with GroupDocs.Editor
 linkTitle: Editor
-weight: 11
+weight: 13
 description: "Round-trip a document through HTML so a web editor can change it, then save it back with GroupDocs.Total for Node.js via Java — runnable JavaScript examples with downloadable files."
 keywords: GroupDocs.Editor, edit document, WYSIWYG, document to HTML, HTML to DOCX, web editor, Node.js
 productName: GroupDocs.Total for Node.js via Java
