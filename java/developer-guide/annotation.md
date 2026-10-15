@@ -3,7 +3,7 @@ id: annotation
 url: total/java/developer-guide/annotation
 title: Annotate documents with GroupDocs.Annotation
 linkTitle: Annotation
-weight: 12
+weight: 14
 description: "Add area and highlight annotations to documents with GroupDocs.Total for Java, and read back the annotations already on a file — runnable Java examples with downloadable files."
 keywords: GroupDocs.Annotation, annotate document, PDF annotation, highlight text, document review, collaboration, Java
 productName: GroupDocs.Total for Java

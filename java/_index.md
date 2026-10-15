@@ -13,10 +13,10 @@ AddLibInfoScript: True
 <img src="/logo/128x128/groupdocs-total-java.png" alt="groupdocs-total-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 <dt class="flex flex-wrap align-center gdoc-props__meta">
-    <a href='https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/23.12/' class="release-version-link">
+    <a href='https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-total/26.10/' class="release-version-link">
         <span class="gdoc-props__tag tip">Latest version is 
-            <i class="release-version-number">23.12</i> 
-            <i class="release-version-month">(December 2023)</i> 
+            <i class="release-version-number">26.10</i> 
+            <i class="release-version-month">(October 2026)</i> 
         </span>
     </a>
 </dt>

@@ -26,17 +26,20 @@ These pages are a starting point, not a reference. Once you know which API you n
 | [Metadata](/total/java/developer-guide/metadata/) | Read, edit and strip document metadata | `Metadata` |
 | [Parser](/total/java/developer-guide/parser/) | Extract text, images and data from documents | `Parser` |
 | [Merger](/total/java/developer-guide/merger/) | Join, split and rearrange documents and their pages | `Merger` |
+| [Assembly](/total/java/developer-guide/assembly/) | Generate documents from a template and a data source | `DocumentAssembler` |
+| [Markdown](/total/java/developer-guide/markdown/) | Convert documents to structured Markdown | `MarkdownConverter` |
 | [Redaction](/total/java/developer-guide/redaction/) | Remove sensitive content so it cannot be recovered | `Redactor` |
 | [Signature](/total/java/developer-guide/signature/) | Sign documents electronically and verify existing signatures | `Signature` |
 | [Search](/total/java/developer-guide/search/) | Index a document collection and query it | `Index` |
 | [Editor](/total/java/developer-guide/editor/) | Round-trip a document through HTML for a web editor | `Editor` |
 | [Annotation](/total/java/developer-guide/annotation/) | Add review markup and read it back | `Annotator` |
 
-GroupDocs.Assembly, GroupDocs.Markdown and GroupDocs.Classification are not part of GroupDocs.Total for Java and are not covered here.
+GroupDocs.Classification is not part of GroupDocs.Total for Java and is not covered here.
 
-Most of these follow the same shape — open a file, do one thing, save. Two do not, and their pages
-explain why: **Search** works on a folder rather than a file and indexes before it queries, and
-**Editor** is a three-stage round trip through HTML rather than a single call.
+Most of these follow the same shape — open a file, do one thing, save. Three do not, and their pages
+explain why: **Search** works on a folder rather than a file and indexes before it queries,
+**Assembly** needs a template you author first, and **Editor** is a three-stage round trip through
+HTML rather than a single call.
 
 ## Before you start
 

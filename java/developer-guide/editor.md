@@ -3,7 +3,7 @@ id: editor
 url: total/java/developer-guide/editor
 title: Edit documents with GroupDocs.Editor
 linkTitle: Editor
-weight: 11
+weight: 13
 description: "Round-trip a document through HTML so a web editor can change it, then save it back with GroupDocs.Total for Java — runnable Java examples with downloadable files."
 keywords: GroupDocs.Editor, edit document, WYSIWYG, document to HTML, HTML to DOCX, web editor, Java
 productName: GroupDocs.Total for Java

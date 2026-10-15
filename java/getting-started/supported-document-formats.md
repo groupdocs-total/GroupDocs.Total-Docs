@@ -22,6 +22,7 @@ Explore the diverse file formats supported by GroupDocs.Total for Java! Each pro
 | GroupDocs.Comparison for Java | [supported file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/) |
 | GroupDocs.Editor for Java | [supported file formats](https://docs.groupdocs.com/editor/java/supported-document-formats/) |
 | GroupDocs.Merger for Java | [supported file formats](https://docs.groupdocs.com/merger/java/supported-document-formats/) |
+| GroupDocs.Markdown for Java | [supported file formats](https://docs.groupdocs.com/markdown/java/supported-file-formats/) |
 | GroupDocs.Metadata for Java | [supported file formats](https://docs.groupdocs.com/metadata/java/supported-document-formats/) |
 | GroupDocs.Parser for Java | [supported file formats](https://docs.groupdocs.com/parser/java/supported-document-formats/) |
 | GroupDocs.Redaction for Java | [supported file formats](https://docs.groupdocs.com/redaction/java/supported-document-formats/) |

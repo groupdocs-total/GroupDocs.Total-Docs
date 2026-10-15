@@ -3,7 +3,7 @@ id: redaction
 url: total/java/developer-guide/redaction
 title: Redact documents with GroupDocs.Redaction
 linkTitle: Redaction
-weight: 8
+weight: 10
 description: "Remove sensitive text, patterns and metadata from documents with GroupDocs.Total for Java, with runnable Java examples and downloadable input and output files."
 keywords: GroupDocs.Redaction, redact document, remove sensitive data, redact Word, GDPR, data privacy, Java
 productName: GroupDocs.Total for Java
