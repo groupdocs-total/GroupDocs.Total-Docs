@@ -1,0 +1,23 @@
+# GroupDocs.Total documentation
+
+Hugo sources for https://docs.groupdocs.com/total/.
+
+Platform folders: net, java, nodejs-java, python-net. Do not delete them.
+
+Java package: com.groupdocs:groupdocs-total
+Maven repository: https://releases.groupdocs.com/java/repo/
+Java docs: https://docs.groupdocs.com/total/java/
+
+Start here for Java:
+
+- java/_index.md
+- java/getting-started/installation.md
+- java/getting-started/supported-document-formats.md
+- java/getting-started/sdk-cloud-mcp.md
+
+Build: build_docs.cmd or bash build_docs.sh. See CLAUDE.md.
+Product page: https://products.groupdocs.com/total/
+Java examples: https://github.com/groupdocs-total/GroupDocs.Total-for-Java
+MCP (link only): https://github.com/groupdocs-total/GroupDocs.Total.Mcp
+
+Do not invent a format count.

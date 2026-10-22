@@ -47,7 +47,7 @@ Binary file (DOCX, 15 KB)
 
 ## Split a document into pages
 
-`split` breaks one document into several. With `SplitMode.Pages` and a list of page numbers, each listed page is written out as its own file — here every page of the three-page contract lands separately in the `merger-split-pages` folder.
+`split` breaks one document into several. With `SplitMode.Pages` and a list of page numbers, each listed page is written out as its own file — here both pages of the contract land separately in the `merger-split-pages` folder.
 
 {{< tabs "merger-split-pages" >}}
 {{< tab "Java" >}}
@@ -58,8 +58,9 @@ import com.groupdocs.merger.domain.options.SplitOptions;
 
 Merger merger = new Merger("contract.docx");
 
-// {0} is replaced with the page number, so page 1 becomes page_1.docx
-int[] pageNumbers = new int[] { 1, 2, 3 };
+// {0} is replaced with the page number, so page 1 becomes page_1.docx.
+// contract.docx has two pages.
+int[] pageNumbers = new int[] { 1, 2 };
 SplitOptions splitOptions = new SplitOptions(
     "merger-split-pages/page_{0}.docx", pageNumbers, SplitMode.Pages);
 
@@ -73,9 +74,8 @@ merger.split(splitOptions);
 {{< /tab >}}
 {{< tab "merger-split-pages.zip" >}}  
 ```text
-merger-split-pages/page_1.docx (14 KB)
-merger-split-pages/page_2.docx (10 KB)
-merger-split-pages/page_3.docx (8 KB)
+merger-split-pages/page_1.docx (24 KB)
+merger-split-pages/page_2.docx (20 KB)
 ```
 [Download full output](/total/java/_output_files/developer-guide/merger/MergerSplitPages/merger-split-pages.zip)
 {{< /tab >}}

@@ -45,6 +45,7 @@ GroupDocs.Total features a plethora of tools that enable you to customize and co
 <ul>
     <li><a href='{{< ref "/total/java/getting-started/system-requirements.md" >}}'>System requirements</a></li>
     <li><a href='{{< ref "/total/java/getting-started/installation.md" >}}'>Installation</a></li>
+    <li><a href='{{< ref "/total/java/getting-started/sdk-cloud-mcp.md" >}}'>SDK, Cloud, or MCP</a></li>
     <li><a href='{{< ref "/total/java/getting-started/licensing-and-subscription.md" >}}'>Licensing</a></li>
 </ul>   
 
