@@ -26,12 +26,21 @@ Prerequisites named in `CLAUDE.md`: `hugo-extended`, `postcss`, `postcss-cli`, `
 - Repository: https://releases.groupdocs.com/java/repo/
 - Examples pin seen in the Java examples repo: 26.10
 
+## Python package
+
+- PyPI: `groupdocs-total-net` (https://pypi.org/project/groupdocs-total-net/), version 26.11.0
+- A metapackage: it installs the 14 GroupDocs for Python via .NET products and holds no code. Code imports each product from its own package (`groupdocs.conversion`, `groupdocs.viewer`, ...), and licenses each product separately (`GROUPDOCS_LIC_PATH` covers all of them).
+- Python 3.5-3.14; Windows x64, Linux x86_64 with glibc 2.27+, macOS 13+
+
 ## Useful paths
 
 - `java/_index.md` - Java section home
 - `java/getting-started/installation.md`
 - `java/getting-started/supported-document-formats.md`
 - `java/getting-started/sdk-cloud-mcp.md` - when to use the Java SDK, Cloud, or MCP
+- `python-net/_index.md` - Python via .NET section home
+- `python-net/getting-started/installation.md`
+- `python-net/getting-started/quick-start-guide.md`
 
 ## Do not
 

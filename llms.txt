@@ -15,9 +15,19 @@ Start here for Java:
 - java/getting-started/supported-document-formats.md
 - java/getting-started/sdk-cloud-mcp.md
 
+Python package: groupdocs-total-net on PyPI, a metapackage that installs the 14 GroupDocs for Python via .NET products
+Python docs: https://docs.groupdocs.com/total/python-net/
+
+Start here for Python:
+
+- python-net/_index.md
+- python-net/getting-started/installation.md
+- python-net/getting-started/quick-start-guide.md
+
 Build: build_docs.cmd or bash build_docs.sh. See CLAUDE.md.
 Product page: https://products.groupdocs.com/total/
 Java examples: https://github.com/groupdocs-total/GroupDocs.Total-for-Java
+Python examples: https://github.com/groupdocs-total/GroupDocs.Total-for-Python-via-.NET
 MCP (link only): https://github.com/groupdocs-total/GroupDocs.Total.Mcp
 
 Do not invent a format count.

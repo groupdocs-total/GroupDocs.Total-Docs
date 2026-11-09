@@ -5,7 +5,7 @@ title: Installation
 linkTitle: Installation
 weight: 3
 description: "This guide explains how to install GroupDocs.Total for Python via .NET in your environment."
-productName: GroupDocs.Conversion for Python via .NET
+productName: GroupDocs.Total for Python via .NET
 hideChildren: False
 toc: True
 ---
@@ -16,12 +16,17 @@ PyPI (Python Package Index) is a repository of software packages for the Python 
 
 ### Installing the Package
 
-To install the package, open a terminal and run the following command:
+`groupdocs-total-net` is a metapackage: it installs the 14 GroupDocs for Python via .NET products, about 2.2 GB to download and 3.2 GB on disk. To install it, open a terminal and run the following command:
 
 {{< tabs "example1">}}
 {{< tab "Windows" >}}
 ```bash
 py -m pip install groupdocs-total-net
+```
+{{< /tab >}}
+{{< tab "Linux and macOS" >}}
+```bash
+python3 -m pip install groupdocs-total-net
 ```
 {{< /tab >}}
 {{< /tabs >}}
@@ -30,10 +35,10 @@ When running the command on Windows, you can expect an output similar to the fol
 
 ```bash
 Collecting groupdocs-total-net
-  Using cached groupdocs_total_net-25.12.0-py3-none-any.whl.metadata (5.2 kB)
-Collecting groupdocs-conversion-net==24.12 (from groupdocs-total-net)
+  Downloading groupdocs_total_net-26.11.0-py3-none-any.whl (3.4 kB)
+Collecting groupdocs-conversion-net==26.9.0 (from groupdocs-total-net)
 ...
-Successfully installed groupdocs-assembly-net-25.5.1 groupdocs-comparison-net-25.12 groupdocs-conversion-net-25.12 groupdocs-merger-net-25.3 groupdocs-metadata-net-25.10 groupdocs-redaction-net-25.10 groupdocs-signature-net-25.4 groupdocs-total-net-25.12 groupdocs-viewer-net-25.12 groupdocs-watermark-net-25.12
+Successfully installed groupdocs-annotation-net-26.6.0 groupdocs-assembly-net-26.11.0 groupdocs-comparison-net-26.5.0 groupdocs-conversion-net-26.9.0 groupdocs-editor-net-26.5.0 groupdocs-markdown-net-26.3.0 groupdocs-merger-net-26.6.0 groupdocs-metadata-net-26.9.0 groupdocs-parser-net-26.10.0 groupdocs-redaction-net-26.6.0 groupdocs-search-net-26.10.0 groupdocs-signature-net-26.10.0 groupdocs-total-net-26.11.0 groupdocs-viewer-net-26.9.0 groupdocs-watermark-net-26.10.0
 ```
 
 ### Adding the Package to requirements.txt
@@ -41,13 +46,35 @@ Successfully installed groupdocs-assembly-net-25.5.1 groupdocs-comparison-net-25
 You can add the dependency to your `requirements.txt` file by including the following line:
 
 ```bash
-groupdocs-total-net==25.12
+groupdocs-total-net==26.11.0
 ```
 
 Then, install the package using this command:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Installing Only the Products You Use
+
+Each product is also a package of its own, so you can install just the ones your application uses, for example:
+
+```bash
+pip install groupdocs-conversion-net groupdocs-watermark-net
+```
+
+## Install Without Internet Access
+
+On a machine with internet access and the same operating system and Python version, download the metapackage and all 14 product wheels into a folder:
+
+```bash
+pip download groupdocs-total-net==26.11.0 -d wheels
+```
+
+Copy the `wheels` folder to the target machine and install from it:
+
+```bash
+pip install --no-index --find-links wheels groupdocs-total-net==26.11.0
 ```
 
 ## Download Package from Official Website
@@ -64,6 +91,11 @@ You can also download individual packages from their respective product pages:
 * [groupdocs-assembly-net](https://releases.groupdocs.com/assembly/python-net/#direct-download)
 * [groupdocs-redaction-net](https://releases.groupdocs.com/redaction/python-net/#direct-download)
 * [groupdocs-signature-net](https://releases.groupdocs.com/signature/python-net/#direct-download)
+* [groupdocs-parser-net](https://releases.groupdocs.com/parser/python-net/#direct-download)
+* [groupdocs-search-net](https://releases.groupdocs.com/search/python-net/#direct-download)
+* [groupdocs-annotation-net](https://releases.groupdocs.com/annotation/python-net/#direct-download)
+* [groupdocs-editor-net](https://releases.groupdocs.com/editor/python-net/#direct-download)
+* [groupdocs-markdown-net](https://releases.groupdocs.com/markdown/python-net/#direct-download)
 
 Make sure to select the package that matches your system’s architecture.
 
@@ -73,23 +105,20 @@ After downloading, copy the package file into your project folder.
 
 #### Install the groupdocs-total-net Metapackage
 
-The following example shows how to install **GroupDocs.Total for Python via .NET** after downloading the `.whl` file:
+The metapackage file only lists the 14 products; pip downloads them from PyPI when you install it. To install from downloaded files only, put the metapackage file and the 14 product wheels for your platform in one folder, and run this command in it:
 
 {{< tabs "example2">}}
 {{< tab "Windows" >}}
 ```powershell
-py -m pip install groupdocs_total_net-25.12-py3-none-any.whl
+py -m pip install --no-index --find-links . groupdocs-total-net==26.11.0
+```
+{{< /tab >}}
+{{< tab "Linux and macOS" >}}
+```bash
+python3 -m pip install --no-index --find-links . groupdocs-total-net==26.11.0
 ```
 {{< /tab >}}
 {{< /tabs >}}
-
-Expected output:
-
-```bash
-Processing groupdocs_total_net-25.12.0-py3-none-any.whl
-...
-Successfully installed groupdocs-comparison-net-25.12 groupdocs-conversion-net-25.12 groupdocs-metadata-net-25.10 groupdocs-redaction-net-25.10 groupdocs-total-net-25.12 groupdocs-viewer-net-25.12 groupdocs-watermark-net-25.12  
-```
 
 #### Install an Individual Package File
 
@@ -98,22 +127,22 @@ The following examples show how to install **GroupDocs.Conversion for Python via
 {{< tabs "example3">}}
 {{< tab "Windows (64-bit)" >}}
 ```powershell
-py -m pip install groupdocs_conversion_net-24.12-py3-none-win_amd64.whl
+py -m pip install groupdocs_conversion_net-26.9.0-py3-none-win_amd64.whl
 ```
 {{< /tab >}}
-{{< tab "Windows (32-bit)" >}}
-```powershell
-py -m pip install groupdocs_conversion_net-24.12-py3-none-win32.whl
+{{< tab "Linux" >}}
+```bash
+python3 -m pip install groupdocs_conversion_net-26.9.0-py3-none-manylinux1_x86_64.whl
 ```
 {{< /tab >}}
 {{< tab "macOS (Apple Silicon)" >}}
 ```bash
-python3 -m pip install groupdocs_conversion_net-24.12-py3-none-macosx_11_0_arm64.whl
+python3 -m pip install groupdocs_conversion_net-26.9.0-py3-none-macosx_11_0_arm64.whl
 ```
 {{< /tab >}}
 {{< tab "macOS (Intel)" >}}
 ```bash
-python3 -m pip install groupdocs_conversion_net-24.12-py3-none-macosx_10_14_x86_64.whl
+python3 -m pip install groupdocs_conversion_net-26.9.0-py3-none-macosx_10_14_x86_64.whl
 ```
 {{< /tab >}}
 {{< /tabs >}}
@@ -121,9 +150,9 @@ python3 -m pip install groupdocs_conversion_net-24.12-py3-none-macosx_10_14_x86_
 Expected output:
 
 ```bash
-Processing groupdocs_conversion_net-24.12-py3-none-win_amd64.whl
+Processing groupdocs_conversion_net-26.9.0-py3-none-win_amd64.whl
 ...
-Successfully installed groupdocs-conversion-net-24.12
+Successfully installed groupdocs-conversion-net-26.9.0
 ```
 
 ## Troubleshooting
@@ -131,4 +160,5 @@ Successfully installed groupdocs-conversion-net-24.12
 If you encounter issues during installation, try the following steps:
 
 * Ensure that the proper Python version is installed — see the [System Requirements]({{< ref "/total/python-net/getting-started/system-requirements.md" >}}) page for details.
+* Use pip 20.3 or later: `python -m pip install --upgrade pip`.
 * Contact us using any of the channels listed in the [Technical Support]({{< ref "/total/python-net/technical-support" >}}) section.

@@ -35,6 +35,11 @@ Create a virtual environment:
 py -3.11 -m venv .venv
 ```
 {{< /tab >}}
+{{< tab "Linux and macOS" >}}
+```bash
+python3 -m venv .venv
+```
+{{< /tab >}}
 {{< /tabs >}}
 
 Activate a virtual environment:
@@ -45,16 +50,26 @@ Activate a virtual environment:
 .venv\Scripts\activate
 ```
 {{< /tab >}}
+{{< tab "Linux and macOS" >}}
+```bash
+source .venv/bin/activate
+```
+{{< /tab >}}
 {{< /tabs >}}
 
 ### Install `groupdocs-total-net` Package
 
-After activating the virtual environment, run the following command in your terminal to install the latest version of the package:
+After activating the virtual environment, run the following command in your terminal to install the latest version of the package. It installs all 14 products: about 2.2 GB to download and 3.2 GB on disk.
 
 {{< tabs "install_package">}}
 {{< tab "Windows" >}}
 ```ps
 py -m pip install groupdocs-total-net
+```
+{{< /tab >}}
+{{< tab "Linux and macOS" >}}
+```bash
+python3 -m pip install groupdocs-total-net
 ```
 {{< /tab >}}
 {{< /tabs >}}
@@ -138,7 +153,7 @@ After running the app you can deactivate virtual environment by executing `deact
 
 ## Example 2: Remove document metadata
 
-This code example shows how to remove PDF document metadata and save the output to a file with GroupDocs.Metadata. You can download the app that we're going to buid [here](/total/python-net/_sample_files/getting-started/quick-start-guide/remove_pdf_metadata.zip).
+This code example shows how to remove PDF document metadata and save the output to a file with GroupDocs.Metadata. You can download the app that we're going to build [here](/total/python-net/_sample_files/getting-started/quick-start-guide/remove_pdf_metadata.zip).
 
 {{< tabs "example_remove_pdf_document_metadata">}}
 {{< tab "remove_pdf_document_metadata.py" >}}  
@@ -207,13 +222,17 @@ After running the app you can deactivate virtual environment by executing `deact
 
 ## Example 3: Convert and remove metadata
 
-This example converts a DOCX file to PDF and removes metadata in a single workflow.
+This example converts a DOCX file to PDF and removes metadata in a single workflow, using two products in one script.
 You can download the demo app [here](/total/python-net/_sample_files/getting-started/quick-start-guide/convert_and_remove_metadata.zip).
 
 {{< tabs "example_convert_and_remove_metadata">}}
 {{< tab "convert_and_remove_metadata.py" >}}  
 ```python
 import os
+
+# Windows: keep each product on its own .NET runtime (set before the first call)
+os.environ["DOTNET_MULTILEVEL_LOOKUP"] = "0"
+
 from groupdocs.conversion import License as ConversionLicense, Converter
 from groupdocs.conversion.options.convert import PdfConvertOptions
 from groupdocs.metadata import License as MetadataLicense, Metadata
@@ -285,6 +304,7 @@ py convert_and_remove_metadata.py
 After running the app you can deactivate virtual environment by executing `deactivate` or closing your shell.
 
 ### Explanation
+- `os.environ["DOTNET_MULTILEVEL_LOOKUP"] = "0"`: On Windows, keeps each product on the .NET runtime it ships with. Without it, on a machine with a newer .NET installed system-wide, Viewer, Metadata, Annotation, Comparison, Editor, Merger and Redaction load that runtime instead, and the second of them in one script fails with `RuntimeError: hostfxr_get_runtime_delegate failed with 0x800080a3`. It has no effect on Linux and macOS.
 - `Converter("./business-plan.docx")`: Initializes the converter with the DOCX file.
 - `converter.convert("./business-plan.pdf", pdf_convert_options)`: Converts the DOCX file to PDF and saves it as `business-plan.pdf`.
 - `Metadata("./business-plan.pdf")`: Reads converted PDF file.
@@ -294,5 +314,5 @@ After running the app you can deactivate virtual environment by executing `deact
 ## Learn More
 
 - [Supported File Formats]({{< ref "/total/python-net/getting-started/supported-document-formats.md" >}}): Review the full list of supported file types.
-- [Licensing and Evaluation]({{< ref "/total/python-net/getting-started/licensing-and-evaluation.md" >}}): Check details on licening and evaluation.
+- [Licensing and Evaluation]({{< ref "/total/python-net/getting-started/licensing-and-evaluation.md" >}}): Check details on licensing and evaluation.
 - [Technical Support]({{< ref "/total/python-net/technical-support.md" >}}): Contact support for assistance if you encounter issues.

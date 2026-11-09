@@ -12,32 +12,26 @@ toc: True
 
 In this guide, you’ll learn how to run GroupDocs.Total for Python via .NET inside a Docker container using simple code examples.
 
-## Limitations
+## Before You Start
 
-Currently, not all GroupDocs Python APIs support Linux. This limitation will be addressed in upcoming releases.
+All 14 products that GroupDocs.Total for Python via .NET installs have Linux x86_64 wheels. This guide shows how to use GroupDocs.Merger for Python via .NET in a Docker container.
 
-APIs that support Linux are the following:
-
-* [groupdocs‑comparison‑net](https://pypi.org/project/groupdocs-comparison-net/)
-* [groupdocs‑watermark‑net](https://pypi.org/project/groupdocs-watermark-net/)
-* [groupdocs‑metadata‑net](https://pypi.org/project/groupdocs-metadata-net/)
-* [groupdocs‑merger‑net](https://pypi.org/project/groupdocs-merger-net/)
-
-This guide will show how to use GroupDocs.Merger for Python via .NET in Docker container.
+Install only the products your application uses: the full `groupdocs-total-net` metapackage adds about 3.2 GB to an image.
 
 ## Dependencies
 
 When using the GroupDocs Python SDK in a Linux environment, make sure the following packages are installed, as they are required for proper library operation:
 
-* `libicu` — ICU library (must not exceed version 70)
-* `libssl1.1` — OpenSSL library required by .NET Core 3.1
+* `libicu` - ICU library, required by every product
+* `libgdiplus` - used by several products to render documents
+* `fontconfig` and fonts, for example `fonts-liberation`
 
 ## Basic Example
 
-This is the most basic example that shows how to run GroupDocs Python APIs in Docker. The example demonstrates how to merge tow DOCX files using GroupDocs.Merger in Docker container.
+This is the most basic example that shows how to run GroupDocs Python APIs in Docker. The example demonstrates how to merge two DOCX files using GroupDocs.Merger in Docker container.
 
 {{< alert style="info" >}}
-You can download this sample application from [here](/total/net/_sample_files/getting-started/running-in-docker/basic-example.zip).
+You can download this sample application from [here](/total/python-net/_sample_files/getting-started/running-in-docker/merge_docx_files.zip).
 {{< /alert >}}
 
 ### Project Structure
@@ -45,7 +39,7 @@ You can download this sample application from [here](/total/net/_sample_files/ge
 The sample application has the following folder structure:
 
 ```
-📂 basic-example/
+📂 demo_app/
 ├── 📂 output/                   # Output directory for converted files
 ├── 📄 .dockerignore             # Files to exclude from Docker build context
 ├── 📄 appendix.docx             # Sample input document to merge
@@ -57,33 +51,32 @@ The sample application has the following folder structure:
 └── 📄 requirements.txt          # Application dependencies
 ```
 
-We’re using a Python 3.11 slim image and installing required .NET dependencies `libicu` and `libssl1.1` manually.
+We're using a Python 3.12 slim image based on Debian 12 and installing the required system packages with `apt-get`.
 Here are the most essential parts:
 
 {{< tabs "example_run_in_docker" >}}
 
 {{< tab "Dockerfile" >}}  
 {{< highlight dockerfile "" >}}
-# Use Python 3.11 slim base image which is smaller than the default base image
-FROM python:3.11-slim
+# Python 3.12 slim image based on Debian 12
+FROM python:3.12-slim-bookworm
 
-# Install prerequisites from a reliable source
-ENV SNAPSHOT_DATE=20220328T000000Z
-RUN echo "deb [trusted=yes] http://snapshot.debian.org/archive/debian/${SNAPSHOT_DATE} bullseye main" \
-        > /etc/apt/sources.list.d/debian-archive.list && \
-    apt-get -o Acquire::Check-Valid-Until=false update && \
+# ICU is required by every GroupDocs product; libgdiplus, fontconfig and fonts are used to render documents
+RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-        libicu67 \
-        libssl1.1 && \
+        libicu72 \
+        libgdiplus \
+        fontconfig \
+        fonts-liberation && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Set workdir 
+# Set workdir
 WORKDIR /app
 
 # Install Python dependencies
 COPY requirements.txt ./
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the app
 COPY . .
@@ -124,7 +117,7 @@ if __name__ == "__main__":
 
 {{< tab "requirements.txt" >}}  
 {{< highlight text "" >}}
-groupdocs-merger-net>=25.3
+groupdocs-merger-net==26.6.0
 {{< /highlight >}}
 {{< /tab >}}
 
@@ -175,4 +168,4 @@ RUN apt-get update && apt-get install -y fonts-liberation fonts-dejavu-core
 
 ### Exceptions
 
-In case you experience any other exeptions when running the application please contact us using the [GroupDocs Free Support Forum](https://forum.groupdocs.com/) and we'll be happy to help.
+In case you experience any other exceptions when running the application please contact us using the [GroupDocs Free Support Forum](https://forum.groupdocs.com/) and we'll be happy to help.

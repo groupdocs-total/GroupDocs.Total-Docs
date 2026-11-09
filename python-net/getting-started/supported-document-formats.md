@@ -12,7 +12,7 @@ aliases:
     - /total/python-net/supported-file-formats
 ---
 
-**GroupDocs.Total for Python via .NET** is a suite of document-processing APIs that together support a very broad range of file formats — from common office documents and PDFs to images, e-mail formats, eBooks and many specialized formats. Each product in the suite focuses on a particular capability (viewing, conversion, comparison, watermarking, metadata handling, merging, assembly, redaction, signature), and every product exposes its own detailed list of supported file types. For the most accurate, product-level information and quick format lookup use the linked product pages below.
+**GroupDocs.Total for Python via .NET** is a suite of document-processing APIs that together support a very broad range of file formats — from common office documents and PDFs to images, e-mail formats, eBooks and many specialized formats. Each product in the suite focuses on a particular capability (viewing, conversion, comparison, watermarking, metadata handling, merging, assembly, redaction, signature, parsing, search, annotation, editing, Markdown conversion), and every product exposes its own detailed list of supported file types. For the most accurate, product-level information and quick format lookup use the linked product pages below.
 
 > **Note:** Supported formats vary by product and by operation (for example, a format that can be **viewed** may not be **convertible** to every other format). Always check the per-product supported-formats page for the authoritative list.
 
@@ -21,8 +21,10 @@ aliases:
 - **Conversion** supports thousands of conversion combinations and covers a very large set of input/output formats — ideal when you need to convert between many different types.  
 - **Viewer** renders documents to HTML, PDF, JPEG and PNG so you can display a wide variety of formats in web or desktop apps.  
 - **Comparison** supports common office and text formats (Word, Excel, PowerPoint), OpenDocument (ODT), PDF, text and HTML for document comparison workflows.  
-- **Assembly / Metadata** components accept a very large set of formats (the Assembly/Metadata product pages report support for **170+** popular formats), making them suitable for template population and metadata extraction across many document types.  
-- **Merger / Redaction / Watermark / Signature** products handle the usual office formats (DOC/DOCX/XLS/XLSX/PPT/PPTX, PDF) plus images, email and other formats frequently used in document processing pipelines.
+- **Assembly** fills Word, Excel, PowerPoint, OpenDocument, email, HTML, Markdown and text templates, and **Metadata** reads and writes the metadata of documents and images across many document types.  
+- **Merger / Redaction / Watermark / Signature / Annotation** products handle the usual office formats (DOC/DOCX/XLS/XLSX/PPT/PPTX, PDF) plus images, email and other formats frequently used in document processing pipelines.  
+- **Parser** and **Search** extract and index the text of office documents, PDF, email, eBooks, archives and images.  
+- **Editor** opens Word, Excel, PowerPoint, PDF, text and other documents for editing through HTML, and **Markdown** converts documents to Markdown.
 
 ## Commonly requested formats (examples)
 
@@ -36,7 +38,7 @@ Below are links to the per-product supported-formats pages where you can search 
 
 | Product | Documentation page |
 | --- | --- |
-| GroupDocs.Conversion&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/conversion/python-net/supported-file-formats/) |
+| GroupDocs.Conversion&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/conversion/python-net/supported-document-formats/) |
 | GroupDocs.Viewer&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/) |
 | GroupDocs.Comparison&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/comparison/python-net/supported-document-formats/) |
 | GroupDocs.Watermark&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/watermark/python-net/supported-document-formats/) |
@@ -45,6 +47,11 @@ Below are links to the per-product supported-formats pages where you can search 
 | GroupDocs.Assembly&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/assembly/python-net/supported-document-formats/) |
 | GroupDocs.Redaction&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/redaction/python-net/supported-document-formats/) |
 | GroupDocs.Signature&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/signature/python-net/supported-file-formats/) |
+| GroupDocs.Parser&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/parser/python-net/supported-document-formats/) |
+| GroupDocs.Search&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/search/python-net/supported-document-formats/) |
+| GroupDocs.Annotation&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/annotation/python-net/supported-document-formats/) |
+| GroupDocs.Editor&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/editor/python-net/supported-document-formats/) |
+| GroupDocs.Markdown&nbsp;for&nbsp;Python&nbsp;via&nbsp;.NET | [Supported file formats](https://docs.groupdocs.com/markdown/python-net/supported-file-formats/) |
 
 ## Request file-format support
 

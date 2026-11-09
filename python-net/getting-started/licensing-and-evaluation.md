@@ -44,7 +44,8 @@ For testing without trial limitations, you can request a 30-day Temporary Licens
 
 ### Important Notes
 
-- Set the license only once per application
+- Each product is licensed separately: apply the license in every product your application uses, either with that product's `License` class or once for all of them with the `GROUPDOCS_LIC_PATH` environment variable (method 3 below)
+- Set the license only once per product
 - Set the license before using any GroupDocs.Total code
 - Multiple calls to `set_license` are safe but unnecessary
 - Avoid multiple calls to `set_metered_key`, as this may interfere with accurate consumption tracking.
@@ -54,7 +55,7 @@ For testing without trial limitations, you can request a 30-day Temporary Licens
 You can apply the license using a file path or a stream.
 
 {{< alert style="info" >}}
-The following code examples show how to set license for GroupDocs.Conversion API but the process it the same for all of the APIs included into GroupDocs.Total.
+The following code examples show how to set license for GroupDocs.Conversion API but the process is the same for all of the APIs included into GroupDocs.Total.
 {{< /alert >}}
 
 #### 1. From a File
@@ -69,9 +70,12 @@ def set_license_from_file():
     # Get absolute path to license file
     license_path = os.path.abspath("./GroupDocs.Total.lic")
 
-    # Instantiate License and set the license
-    license = License()
-    license.set_license(license_path)
+    if os.path.exists(license_path):
+        # Instantiate License and set the license
+        license = License()
+        license.set_license(license_path)
+    else:
+        print("License file not found. Running in evaluation mode.")
 
 if __name__ == "__main__":
     set_license_from_file()
@@ -89,7 +93,11 @@ def set_license_from_stream():
     # Get absolute path to license file
     license_path = os.path.abspath("./GroupDocs.Total.lic")
 
-    # Create a readable steam
+    if not os.path.exists(license_path):
+        print("License file not found. Running in evaluation mode.")
+        return
+
+    # Create a readable stream
     with open(license_path, "rb") as license_stream:
         # Instantiate and set the license
         license = License()
@@ -99,7 +107,24 @@ if __name__ == "__main__":
     set_license_from_stream()
 ```
 
-#### 3. Metered License
+#### 3. From the `GROUPDOCS_LIC_PATH` Environment Variable
+
+Set `GROUPDOCS_LIC_PATH` to the path of the license file, or to a URL that serves it, and every product applies the license by itself at its first call, with no license code in your application. A license URL is downloaded once and cached.
+
+{{< tabs "set_license_from_environment_variable">}}
+{{< tab "Linux and macOS" >}}
+```bash
+export GROUPDOCS_LIC_PATH="/path/to/GroupDocs.Total.lic"
+```
+{{< /tab >}}
+{{< tab "Windows (PowerShell)" >}}
+```powershell
+$env:GROUPDOCS_LIC_PATH = "C:\path\to\GroupDocs.Total.lic"
+```
+{{< /tab >}}
+{{< /tabs >}}
+
+#### 4. Metered License
 
 A [Metered License](https://reference.groupdocs.com/conversion/python-net/groupdocs.conversion/metered/) is also available as an alternative to a traditional license file. It is a usage-based licensing model that may be more suitable for customers who prefer to be billed based on actual API feature usage. For more information, refer to the [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered/).
 
