@@ -35,7 +35,7 @@ When running the command on Windows, you can expect an output similar to the fol
 
 ```bash
 Collecting groupdocs-total-net
-  Downloading groupdocs_total_net-26.11.0-py3-none-any.whl (3.4 kB)
+  Downloading groupdocs_total_net-26.11.0-py3-none-any.whl.metadata (9.7 kB)
 Collecting groupdocs-conversion-net==26.9.0 (from groupdocs-total-net)
 ...
 Successfully installed groupdocs-annotation-net-26.6.0 groupdocs-assembly-net-26.11.0 groupdocs-comparison-net-26.5.0 groupdocs-conversion-net-26.9.0 groupdocs-editor-net-26.5.0 groupdocs-markdown-net-26.3.0 groupdocs-merger-net-26.6.0 groupdocs-metadata-net-26.9.0 groupdocs-parser-net-26.10.0 groupdocs-redaction-net-26.6.0 groupdocs-search-net-26.10.0 groupdocs-signature-net-26.10.0 groupdocs-total-net-26.11.0 groupdocs-viewer-net-26.9.0 groupdocs-watermark-net-26.10.0
