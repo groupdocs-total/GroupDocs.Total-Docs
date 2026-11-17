@@ -2,230 +2,142 @@
 id: total
 url: total
 title: GroupDocs.Total Product Family
+description: Manipulate documents from within your own desktop solutions and web apps without requiring any other commercial products.
 geekdocSkip: true
 geekdocNav: false
 geekdocAlign: center
 geekdocAnchor: false
 hideChildren: true
 showFeedbackForm: false
+family:
+  platforms:
+    - key: net
+      # Not published yet (404 on 2026-11-17); uncomment when it exists:
+      # reference: https://reference.groupdocs.com/total/net/
+      releases: https://releases.groupdocs.com/total/net/release-notes/
+      samples: https://github.com/groupdocs-total/GroupDocs.Total-for-.NET
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Product overview
+              url: /total/net/product-overview/
+            - title: System requirements
+              url: /total/net/system-requirements/
+            - title: Installation
+              url: /total/net/installation/
+        - kind: guide
+          title: Licensing and support
+          description: Articles and guidelines
+          links:
+            - title: Licensing
+              url: /total/net/licensing-and-evaluation/
+            - title: Technical support
+              url: /total/net/technical-support/
+        - kind: code
+          title: .NET code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Total for .NET
+              url: https://github.com/groupdocs-total/GroupDocs.Total-for-.NET
+    - key: java
+      # Not published yet (404 on 2026-11-17); uncomment when it exists:
+      # reference: https://reference.groupdocs.com/total/java/
+      releases: https://releases.groupdocs.com/total/java/release-notes/
+      samples: https://github.com/groupdocs-total/GroupDocs.Total-for-Java
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Product overview
+              url: /total/java/product-overview/
+            - title: System requirements
+              url: /total/java/system-requirements/
+            - title: Installation
+              url: /total/java/installation/
+        - kind: guide
+          title: Licensing and support
+          description: Articles and guidelines
+          links:
+            - title: Licensing
+              url: /total/java/licensing-and-evaluation/
+            - title: Technical support
+              url: /total/java/technical-support/
+        - kind: code
+          title: Java code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Total for Java
+              url: https://github.com/groupdocs-total/GroupDocs.Total-for-Java
+    - key: nodejs-java
+      # Not published yet (404 on 2026-11-17); uncomment when it exists:
+      # reference: https://reference.groupdocs.com/total/nodejs-java/
+      releases: https://releases.groupdocs.com/total/nodejs-java/release-notes/
+      samples: https://github.com/groupdocs-total/GroupDocs.Total-for-Node.js-via-Java
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Product overview
+              url: /total/nodejs-java/product-overview/
+            - title: System requirements
+              url: /total/nodejs-java/system-requirements/
+            - title: Installation
+              url: /total/nodejs-java/installation/
+        - kind: guide
+          title: Licensing and support
+          description: Articles and guidelines
+          links:
+            - title: Licensing
+              url: /total/nodejs-java/licensing-and-evaluation/
+            - title: Technical support
+              url: /total/nodejs-java/technical-support/
+        - kind: code
+          title: Node.js via Java code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Total for Node.js via Java
+              url: https://github.com/groupdocs-total/GroupDocs.Total-for-Node.js-via-Java
+    - key: python-net
+      # Not published yet (404 on 2026-11-17); uncomment when it exists:
+      # reference: https://reference.groupdocs.com/total/python-net/
+      releases: https://releases.groupdocs.com/total/python-net/release-notes/
+      samples: https://github.com/groupdocs-total/GroupDocs.Total-for-Python-via-.NET
+      sections:
+        - kind: start
+          title: Getting started
+          description: Start quickly with our getting-started documentation
+          links:
+            - title: Product overview
+              url: /total/python-net/product-overview/
+            - title: System requirements
+              url: /total/python-net/system-requirements/
+            - title: Installation
+              url: /total/python-net/installation/
+        - kind: guide
+          title: Licensing and support
+          description: Articles and guidelines
+          links:
+            - title: Licensing
+              url: /total/python-net/licensing-and-evaluation/
+            - title: Technical support
+              url: /total/python-net/technical-support/
+        - kind: code
+          title: Python code examples
+          description: Open-source projects for example API usage
+          links:
+            - title: GroupDocs.Total for Python via .NET
+              url: https://github.com/groupdocs-total/GroupDocs.Total-for-Python-via-.NET
+  demos:
+    - kind: docker
+      title: GroupDocs.Total for .NET at DockerHub
+      description: Out-of-the-box docker container
+      url: https://hub.docker.com/r/groupdocs/total
+    - kind: app
+      title: GroupDocs.Total Free App
+      description: Automate processing among multiple file and document types online for free
+      url: https://products.groupdocs.app/total
 ---
-
-<div class="gdoc-list-descr">
-Comprehensive suite of .NET, Java, Node.js, and Python libraries for document manipulation and management - view, edit, convert and sign various file formats such as Word, Excel, PowerPoint, PDF, images and more
-</div>
-
-<h2 class="gdoc-product-title">Documentation</h2>
-
-<div class="gdoc-platform-links">
-<ul >
-<li><a href="#total_net">.NET</a></li>
-<li><a href="#total_java">Java</a></li>
-<li><a href="#total_nodejs-java">Node.js</a></li>
-<li><a href="#total_python_net">Python via .NET</a></li>
-</ul>
-</div>
-
-
-<div class="gdoc-platforms">
-<div class="gdoc-platform">
-     <a id="total_net"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#net"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/total/net/'>GroupDocs.Total for .NET</a>
-            <a class="gdoc-platform__header-btn"  href='/total/net/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                    <li> <a href='/total/net/product-overview/'>Product overview</a></li>
-                    <li> <a href='/total/net/system-requirements/'>System requirements</a></li>
-                    <li> <a href='/total/net/installation/'>Installation</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Licensing and support</div></div>
-                    <div class="gdoc-platform__col-descr">Articles and guidelines</div>
-                    <ul class="gdoc-platform__col-links">
-                        <li> <a href='/total/net/licensing-and-evaluation/'>Licensing</a></li>
-                        <li> <a href='/total/net/technical-support/'>Technical support</a></li>
-                    </ul>
-                    </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                    <div>.NET code examples</div></div>
-                    <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                        <li> <a href='https://github.com/groupdocs-total/GroupDocs.Total-for-.NET'>GroupDocs.Total for .NET</a></li>
-                    </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/total/net/'>More</a>
-        </div>
-    </div>
-    <div class="gdoc-platform">
-    <a id="total_java"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#java"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/total/java/'>GroupDocs.Total for Java</a>
-            <a class="gdoc-platform__header-btn"  href='/total/java/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                    <li> <a href='/total/java/product-overview/'>Product overview</a></li>
-                    <li> <a href='/total/java/system-requirements/'>System requirements</a></li>
-                    <li> <a href='/total/java/installation/'>Installation</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Licensing and support</div></div>
-                    <div class="gdoc-platform__col-descr">Articles and guidelines</div>
-                    <ul class="gdoc-platform__col-links">
-                        <li> <a href='/total/java/licensing-and-evaluation/'>Licensing</a></li>
-                        <li> <a href='/total/java/technical-support/'>Technical support</a></li>
-                    </ul>
-                </div>
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                <div>Java code examples</div></div>
-                <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                    <li> <a href='https://github.com/groupdocs-total/GroupDocs.Total-for-Java'>GroupDocs.Total for Java</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/total/java/'>More</a>
-        </div>
-    </div>
-    <div class="gdoc-platform">
-    <a id="total_nodejs-java"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#nodejs"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/total/nodejs-java/'>GroupDocs.Total for Node.js via Java</a>
-            <a class="gdoc-platform__header-btn"  href='/total/nodejs-java/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                    <li> <a href='/total/nodejs-java/product-overview/'>Product overview</a></li>
-                    <li> <a href='/total/nodejs-java/system-requirements/'>System requirements</a></li>
-                    <li> <a href='/total/nodejs-java/installation/'>Installation</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Licensing and support</div></div>
-                    <div class="gdoc-platform__col-descr">Articles and guidelines</div>
-                    <ul class="gdoc-platform__col-links">
-                        <li> <a href='/total/nodejs-java/licensing-and-evaluation/'>Licensing</a></li>
-                        <li> <a href='/total/nodejs-java/technical-support/'>Technical support</a></li>
-                    </ul>
-                </div>
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                <div>Node.js via Java code examples</div></div>
-                <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                    <li> <a href='https://github.com/groupdocs-total/GroupDocs.Total-for-Node.js-via-Java'>GroupDocs.Total for Node.js via Java</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/total/nodejs-java/'>More</a>
-        </div>
-    </div>
-    <div class="gdoc-platform">
-     <a id="total_python_net"></a>
-        <div class="gdoc-platform__header">
-            <svg class="gdoc-platform__header-icon"><use xlink:href="/img/groupdocs-stack.svg#python"></use></svg>
-            <a class="gdoc-platform__header-title"  href='/total/python-net/'>GroupDocs.Total for Python via .NET</a>
-            <a class="gdoc-platform__header-btn"  href='/total/python-net/'>More</a>
-        </div>
-        <div class="gdoc-platform__cols">
-            <div class="gdoc-platform__col">
-                <div class="gdoc-platform__col-title">
-                <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#time"></use></svg>
-                <div>Getting started</div></div>
-                <div class="gdoc-platform__col-descr">Start quickly with our getting started documentation</div>
-                <ul class="gdoc-platform__col-links">
-                    <li> <a href='/total/python-net/product-overview/'>Product overview</a></li>
-                    <li> <a href='/total/python-net/system-requirements/'>System requirements</a></li>
-                    <li> <a href='/total/python-net/installation/'>Installation</a></li>
-                </ul>
-            </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#document"></use></svg>
-                    <div>Licensing and support</div></div>
-                    <div class="gdoc-platform__col-descr">Articles and guidelines</div>
-                    <ul class="gdoc-platform__col-links">
-                        <li> <a href='/total/python-net/licensing-and-evaluation/'>Licensing</a></li>
-                        <li> <a href='/total/python-net/technical-support/'>Technical support</a></li>
-                    </ul>
-                    </div>
-            <div class="gdoc-platform__col">
-                    <div class="gdoc-platform__col-title">
-                    <svg class="gdoc-platform__col-icon"><use xlink:href="/img/groupdocs-stack.svg#git-big"></use></svg>
-                    <div>Python code examples</div></div>
-                    <div class="gdoc-platform__col-descr">Open-source projects for APIs example usage</div>
-                    <ul class="gdoc-platform__col-links gdoc-platform__col-links--alt">
-                        <li> <a href='https://github.com/groupdocs-total/GroupDocs.Total-for-Python-via-.NET'>GroupDocs.Total for Python via .NET</a></li>
-                    </ul>
-            </div>
-        </div>
-        <div class="gdoc-platform__footer">
-            <a class="gdoc-platform__footer-btn"  href='/total/python-net/'>More</a>
-        </div>
-    </div>
-</div>
-
-<h2 class="gdoc-product-title">Live demos</h2>
-
-<div class="gdoc-product-examples">
-<div class="gdoc-product-example gdoc-product-example--mobile-fix">
-    <ul class="gdoc-product-example__list">
-        <li> 
-            <svg class="gdoc-product-example__icon"><use xlink:href="/img/groupdocs-stack.svg#docker"></use></svg>
-            <div>
-                <a class="gdoc-product-example__link" rel="nofollow" href="https://hub.docker.com/r/groupdocs/total">GroupDocs.Total for .NET at DockerHub</a>
-                <div class="gdoc-product-example__descr">Out-of-the-box docker container</div>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<div class="gdoc-product-example">
-    <ul class="gdoc-product-example__list gdoc-product-example__list--app">
-        <li > 
-            <svg class="gdoc-product-example__icon"><use xlink:href="/img/groupdocs-stack.svg#app"></use></svg>
-            <div>
-                <a class="gdoc-product-example__link" href="https://products.groupdocs.app/total">GroupDocs.Total Free App</a>
-                <div class="gdoc-product-example__descr">Automate processing among multiple file and document types online for free</div>
-            </div>
-        </li>
-    </ul>
-</div>
-
-</div>
