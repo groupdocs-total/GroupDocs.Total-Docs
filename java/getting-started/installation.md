@@ -56,7 +56,7 @@ Define GroupDocs.Total for Java API dependency in your `pom.xml`:
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-total</artifactId>
-        <version>26.10</version> 
+        <version>26.11</version> 
     </dependency>
 </dependencies>
 ```
@@ -78,26 +78,26 @@ You can [download](/total/java/sample-apps/getting-started/installation/java-app
 {{< tabs "java-app">}}
 {{< tab "App.java" >}}
 ```java
-import com.groupdocs.total.Total;
-import com.groupdocs.total.options.*;
+import com.groupdocs.viewer.Viewer;
+import com.groupdocs.viewer.options.HtmlViewOptions;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Total total = new Total("formatting.docx");
-        total.view(HtmlViewOptions.forEmbeddedResources());
-        total.close();
+        try (Viewer viewer = new Viewer("contract.docx")) {
+            viewer.view(HtmlViewOptions.forEmbeddedResources("page_{0}.html"));
+        }
     }
 }
 ```
 {{< /tab >}}
-{{< tab "formatting.docx" >}}
+{{< tab "contract.docx" >}}
 {{< tab-text >}}
-`formatting.docx` is sample DOCX file that we're going to use in this example. Click [here](/total/java/sample-files/getting-started/installation/formatting.docx) to download it.
+`contract.docx` is the sample DOCX file used in this example. Click [here](/total/java/_sample_files/contract.docx) to download it.
 {{< /tab-text >}}
 {{< /tab >}}
 {{< tab "groupdocs-total.jar" >}}
 {{< tab-text >}}
-`groupdocs-total.jar` is GroupDocs.Total for Java JAR file e.g., [groupdocs-total-26.10.jar](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-total/26.10/groupdocs-total-26.10.jar).
+`groupdocs-total.jar` is GroupDocs.Total for Java JAR file e.g., [groupdocs-total-26.11.jar](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-total/26.11/groupdocs-total-26.11.jar).
 {{< /tab-text >}}
 {{< /tab >}}
 {{< /tabs >}}
@@ -107,9 +107,10 @@ Your folder tree should look similar to the following directory structure:
 ```Directory
 📂 java-app
  ├──App.java
- ├──formatting.docx
+ ├──contract.docx
  └──groupdocs-total.jar
 ```
+
 
 ### Build application
 

@@ -24,7 +24,13 @@ Prerequisites named in `CLAUDE.md`: `hugo-extended`, `postcss`, `postcss-cli`, `
 - groupId: `com.groupdocs`
 - artifactId: `groupdocs-total`
 - Repository: https://releases.groupdocs.com/java/repo/
-- Examples pin seen in the Java examples repo: 26.10
+- Examples pin seen in the Java examples repo: 26.11
+- Latest suite version: 26.11
+
+## Node.js via Java package
+
+- npm: `@groupdocs/groupdocs.total` (https://www.npmjs.com/package/@groupdocs/groupdocs.total), version 26.11.0
+- Downloads `groupdocs-total-nodejs-26.11.jar` from the GroupDocs Java repository on install
 
 ## Python package
 
@@ -38,6 +44,8 @@ Prerequisites named in `CLAUDE.md`: `hugo-extended`, `postcss`, `postcss-cli`, `
 - `java/getting-started/installation.md`
 - `java/getting-started/supported-document-formats.md`
 - `java/getting-started/sdk-cloud-mcp.md` - when to use the Java SDK, Cloud, or MCP
+- `nodejs-java/_index.md` - Node.js via Java section home
+- `nodejs-java/getting-started/installation.md`
 - `python-net/_index.md` - Python via .NET section home
 - `python-net/getting-started/installation.md`
 - `python-net/getting-started/quick-start-guide.md`

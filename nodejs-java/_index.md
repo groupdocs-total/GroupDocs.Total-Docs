@@ -15,8 +15,8 @@ AddLibInfoScript: True
 <dt class="flex flex-wrap align-center gdoc-props__meta">
     <a href='https://www.npmjs.com/package/@groupdocs/groupdocs.total' class="release-version-link">
         <span class="gdoc-props__tag tip">Latest version is 
-            <i class="release-version-number">26.8</i> 
-            <i class="release-version-month">(August 2026)</i> 
+            <i class="release-version-number">26.11</i> 
+            <i class="release-version-month">(November 2026)</i> 
         </span>
     </a>
 </dt>

@@ -86,7 +86,7 @@ process.exit(0);
     "node": ">=20"
   },
   "dependencies": {
-    "@groupdocs/groupdocs.total": "^26.8.0"
+    "@groupdocs/groupdocs.total": "^26.11.0"
   }
 }
 
